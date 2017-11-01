@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5"
+     xml:base="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Alteração_Genética -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Alteração_Genética">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Biológica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Analgésico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Analgésico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomático"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anti-térmiico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anti-térmiico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomático"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Biológica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Biológica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Combate_ao_Vetor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Combate_ao_Vetor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comportamental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comportamental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Conjuntivite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Conjuntivite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Dor_Articular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Dor_Articular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Dor_de_Cabeça -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Dor_de_Cabeça">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Evitar_Gravidez -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Evitar_Gravidez">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comportamental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Gestante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Gestante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Habitante_de_Zona_Endêmica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Habitante_de_Zona_Endêmica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Hemófilos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Hemófilos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Hidratação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Hidratação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomático"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inicial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inicial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Líquido_Aminiótico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Líquido_Aminiótico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mal_Estar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mal_Estar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inicial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mal_Estar_Nevrálgico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mal_Estar_Nevrálgico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mielite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mielite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito_Aedes_Egypt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito_Aedes_Egypt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transmissão"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Notificação_Compulsória -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Notificação_Compulsória">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Resultado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Picada_Mosquito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Picada_Mosquito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transmissão"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_Geral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_Geral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Prurido -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Prurido">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#RT-PCR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#RT-PCR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Rastreador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Rastreador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Relação_Sexual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Relação_Sexual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transmissão"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Repelente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Repelente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Repouso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Repouso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomático"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Resultado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Resultado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Saneamento_Básico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Saneamento_Básico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomático -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomático">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Tratamento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Síndrome_de_Guilan-Barré -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Síndrome_de_Guilan-Barré">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Teste_de_Sangue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Teste_de_Sangue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transfusão_de_Sangue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transfusão_de_Sangue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transmissão"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transmissão -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transmissão"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Tratamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Tratamento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Triagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Triagem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Usuário_de_Drogas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Usuário_de_Drogas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vertical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vertical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transmissão"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vestimenta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vestimenta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Virus_Zika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Virus_Zika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika_Doença -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika_Doença">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika_V -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika_V">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika_Vírus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika_Vírus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zona_Endêmica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zona_Endêmica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+

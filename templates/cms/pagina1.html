@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>UnB online</title>
+    <link rel="stylesheet" type='text/css' href="{% static '/css/style.css' %}">
+</head>
+<body>
+    <h1>Jornalzinho online da UnB</h1>
+
+    {% for txt in edicao_dados %}
+     <h2>{% autoescape off %} {{ txt }} {% endautoescape %}</h2>
+    {% endfor %}
+
+
+
+    <hr>
+    <p>Obrigado por prestigiar nosso jornalzinho</p>
+
+</body>
+</html>
