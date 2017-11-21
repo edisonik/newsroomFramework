@@ -82,7 +82,7 @@ class Anottator(models.Model):
             concept_dict[uri_to_text_func(i)] = i
         return concept_dict
 
-    def zika_ontology_uri_to_text:
+    def zika_ontology_uri_to_text(uri):
         return str(uri).partition('#')[-1].replace('_',' ')
 
 class Creator(models.Model):
@@ -120,7 +120,7 @@ class Artigo(models.Model):
 
     def save(self, *args, **kwargs):
 
-        '''onto = ontospy.Ontospy("root-ontology.owl")
+        onto = ontospy.Ontospy("root-ontology.owl")
         a = Annotator()
         web_concepts = a.get_reifications(onto)
          
@@ -130,7 +130,7 @@ class Artigo(models.Model):
         concepts_to_annotate = set()
         a.add_related_concepts(reifications_to_annotate,concepts_to_annotate)
 
-        a.update_graph("base.rdf",url,list(concepts_to_annotate),"Vitor Silva").serialize(format='xml',destination = 'base.rdf')'''
+        a.update_graph("base.rdf",url,list(concepts_to_annotate),"Vitor Silva").serialize(format='xml',destination = 'base.rdf')
 
         chave = self.title.split()
         texto = ""
