@@ -1,0 +1,4 @@
+[console_scripts]
+ontospy = ontospy.main:main_cli
+ontospy-shell = ontospy.extras.shell:cli_run_shell
+
