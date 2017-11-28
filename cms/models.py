@@ -1,14 +1,40 @@
 from django.db import models
 from ckeditor.fields import RichTextField
 import MySQLdb
+import datetime
+import rdflib
+from rdflib import Graph,XSD,Literal,plugin,URIRef
+from rdflib.namespace import Namespace,RDFS,RDF,FOAF
+from rdflib.extras.describer import Describer
+from rdflib.serializer import Serializer
+import ontospy
+import nltk
+from nltk.tag import pos_tag
+import urllib.request
+from bs4 import BeautifulSoup
+from nltk.corpus import stopwords
+from bisect import bisect_left
+import urllib
+from urllib.parse import urlparse
+import shutil
+import os
+import sys
+import tempfile
+from newsroomFramework.settings import PROJECT_ROOT
 
 # Create your models here.
 
-class Anottator(models.Model):
+class Annotator(models.Model):
 
+    @staticmethod
+    def get_text_sentences(text):
+        sentences = nltk.sent_tokenize(' '.join([i for i in text.split()]))
+        return [nltk.word_tokenize(sent) for sent in sentences]
+
+    @staticmethod
     def get_article_concepts(concept_text_list,text):#retorna lista de conceitos encontrados no texto
-    
-        sentences = get_text_sentences(text)
+      
+        sentences = Annotator.get_text_sentences(text)
         concepts_found = list()
         search_remaining_concepts = [nltk.word_tokenize(i) for i in concept_text_list]
 
@@ -29,25 +55,23 @@ class Anottator(models.Model):
                                     biggest_concept_items.remove(concept)
 
         return concepts_found
-
+    @staticmethod
     def get_reifications(onto):#retorna a lista de uris de todas as reificações de uma ontologia carregada no ontospy
+
         reifications = []
         for i in onto.classes:
             if not i.children():
                 reifications.insert(len(reifications),i)
         return reifications
-
+    @staticmethod
     def add_related_concepts(parents,elem_set):#Adiciona a um conjunto de uris(nós) todos os outros nós pais relacionádos aos mesmos
+ 
         for i in parents:
             elem_set.update([i])
             add_related_concepts(i.parents(),elem_set)
-
-    def get_text_sentences(text):
-        sentences = nltk.sent_tokenize(' '.join([i for i in text.split()]))
-        return [nltk.word_tokenize(sent) for sent in sentences]
-
+    @staticmethod
     def update_graph(basefile,doc_ref,annotations_concepts_uris,author):#Insere novas anotações no grafo presente em basefile ou cria um novo
-    
+     
         AO = Namespace("http://smiy.sourceforge.net/ao/rdf/associationontology.owl")
         PAV = Namespace("http://cdn.rawgit.com/pav-ontology/pav/2.0/pav.owl")
         #ANN = Namespace("https://www.w3.org/2000/10/annotation-ns#annotates")
@@ -75,13 +99,14 @@ class Anottator(models.Model):
 
                                     
         return graph
-
+    @staticmethod
     def uri_to_text(uri_to_text_func,concepts):
+       
         concept_dict = dict()
         for i in concepts:
             concept_dict[uri_to_text_func(i)] = i
         return concept_dict
-
+    @staticmethod
     def zika_ontology_uri_to_text(uri):
         return str(uri).partition('#')[-1].replace('_',' ')
 
@@ -119,24 +144,22 @@ class Artigo(models.Model):
         return texto
 
     def save(self, *args, **kwargs):
-
-        onto = ontospy.Ontospy("root-ontology.owl")
+        #file = open(os.path.join(PROJECT_ROOT, 'root-ontology.owl'))
+        onto = ontospy.Ontospy(os.path.join(PROJECT_ROOT, 'root-ontology.owl'))
+        onto.printClassTree()
         a = Annotator()
         web_concepts = a.get_reifications(onto)
-         
+ 
         concepts_dict = a.uri_to_text(a.zika_ontology_uri_to_text,web_concepts)
 
-        reifications_to_annotate = [concpts_dict[i] for i in a.get_article_concepts(concept_dict.keys(),text)]
+        reifications_to_annotate = [concepts_dict[i] for i in a.get_article_concepts(concepts_dict.keys(),self.text)]
         concepts_to_annotate = set()
         a.add_related_concepts(reifications_to_annotate,concepts_to_annotate)
+        a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),'http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika',list(concepts_to_annotate),"Vitor Silva").serialize(format='xml',destination = 'base.rdf')
 
-        a.update_graph("base.rdf",url,list(concepts_to_annotate),"Vitor Silva").serialize(format='xml',destination = 'base.rdf')
-
-        chave = self.title.split()
         texto = ""
-        for i in chave:
-            if len(i) > 3:
-                texto += i + "\n "
+        for i in concepts_to_annotate:
+                texto += str(i) + "\n "
 
         self.semanticAnnotationsPath=texto
         super(Artigo, self).save(*args, **kwargs)
