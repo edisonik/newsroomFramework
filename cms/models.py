@@ -68,7 +68,7 @@ class Annotator(models.Model):
  
         for i in parents:
             elem_set.update([i])
-            add_related_concepts(i.parents(),elem_set)
+            Annotator.add_related_concepts(i.parents(),elem_set)
     @staticmethod
     def update_graph(basefile,doc_ref,annotations_concepts_uris,author):#Insere novas anotações no grafo presente em basefile ou cria um novo
      
@@ -108,7 +108,7 @@ class Annotator(models.Model):
         return concept_dict
     @staticmethod
     def zika_ontology_uri_to_text(uri):
-        return str(uri).partition('#')[-1].replace('_',' ')
+        return str(uri).partition('#')[-1].partition('*')[0].replace('_',' ')
 
 class Creator(models.Model):
     name = models.CharField(max_length=50)
@@ -144,18 +144,15 @@ class Artigo(models.Model):
         return texto
 
     def save(self, *args, **kwargs):
-        #file = open(os.path.join(PROJECT_ROOT, 'root-ontology.owl'))
+        
         onto = ontospy.Ontospy(os.path.join(PROJECT_ROOT, 'root-ontology.owl'))
-        onto.printClassTree()
         a = Annotator()
         web_concepts = a.get_reifications(onto)
- 
         concepts_dict = a.uri_to_text(a.zika_ontology_uri_to_text,web_concepts)
-
-        reifications_to_annotate = [concepts_dict[i] for i in a.get_article_concepts(concepts_dict.keys(),self.text)]
+        reifications_to_annotate = [concepts_dict[' '.join(i)] for i in a.get_article_concepts(concepts_dict.keys(),self.text)]
         concepts_to_annotate = set()
         a.add_related_concepts(reifications_to_annotate,concepts_to_annotate)
-        a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),'http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika',list(concepts_to_annotate),"Vitor Silva").serialize(format='xml',destination = 'base.rdf')
+        a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),'http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika',list(concepts_to_annotate),"Vitor Silva").serialize(format='xml',destination = os.path.join(PROJECT_ROOT, 'base.rdf'))
 
         texto = ""
         for i in concepts_to_annotate:

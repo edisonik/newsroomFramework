@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://smiy.sourceforge.net/ao/rdf/"
+   xmlns:ns2="http://annotation-ontology.googlecode.com/svn/trunk/"
+   xmlns:ns3="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="Na990d83de668405c873dd8c7b204336e">
+    <ns3:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-28T23:21:09.969872</ns3:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://smiy.sourceforge.net/ao/rdf/associationontology.owlAnnotation"/>
+    <ns3:pav.owlcreatedB>Vitor Silva</ns3:pav.owlcreatedB>
+    <ns2:annotation-foaf.owlannotatesDocument rdf:resource="http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika"/>
+    <ns1:associationontology.owlhasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb041b9a974c14628bf99b5aaaaab10f0">
+    <ns3:pav.owlcreatedB>Vitor Silva</ns3:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://smiy.sourceforge.net/ao/rdf/associationontology.owlAnnotation"/>
+    <ns2:annotation-foaf.owlannotatesDocument rdf:resource="http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika"/>
+    <ns3:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-28T23:21:09.970892</ns3:pav.owlcreatedOn>
+    <ns1:associationontology.owlhasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N343263b702b142839787a48b66abf363">
+    <ns1:associationontology.owlhasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas"/>
+    <ns3:pav.owlcreatedB>Vitor Silva</ns3:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://smiy.sourceforge.net/ao/rdf/associationontology.owlAnnotation"/>
+    <ns3:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-28T23:21:09.972079</ns3:pav.owlcreatedOn>
+    <ns2:annotation-foaf.owlannotatesDocument rdf:resource="http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8ff4e3f3f03249d19d60b548de0998c4">
+    <ns3:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-28T23:21:09.967814</ns3:pav.owlcreatedOn>
+    <ns2:annotation-foaf.owlannotatesDocument rdf:resource="http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika"/>
+    <rdf:type rdf:resource="http://smiy.sourceforge.net/ao/rdf/associationontology.owlAnnotation"/>
+    <ns1:associationontology.owlhasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda"/>
+    <ns3:pav.owlcreatedB>Vitor Silva</ns3:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0d88581225644966ad589e7ef3f8ce18">
+    <ns2:annotation-foaf.owlannotatesDocument rdf:resource="http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika"/>
+    <ns1:associationontology.owlhasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    <ns3:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-28T23:21:09.973363</ns3:pav.owlcreatedOn>
+    <ns3:pav.owlcreatedB>Vitor Silva</ns3:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://smiy.sourceforge.net/ao/rdf/associationontology.owlAnnotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na7821ccd7b99477ea2fae0d544529872">
+    <ns1:associationontology.owlhasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+    <ns2:annotation-foaf.owlannotatesDocument rdf:resource="http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika"/>
+    <ns3:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-28T23:21:09.968862</ns3:pav.owlcreatedOn>
+    <ns3:pav.owlcreatedB>Vitor Silva</ns3:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://smiy.sourceforge.net/ao/rdf/associationontology.owlAnnotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nad2d05e73de44e279a7dd05226f06f6b">
+    <ns2:annotation-foaf.owlannotatesDocument rdf:resource="http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika"/>
+    <rdf:type rdf:resource="http://smiy.sourceforge.net/ao/rdf/associationontology.owlAnnotation"/>
+    <ns3:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-28T23:21:09.966710</ns3:pav.owlcreatedOn>
+    <ns3:pav.owlcreatedB>Vitor Silva</ns3:pav.owlcreatedB>
+    <ns1:associationontology.owlhasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre"/>
+  </rdf:Description>
+</rdf:RDF>
