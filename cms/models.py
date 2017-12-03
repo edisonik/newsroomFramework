@@ -21,6 +21,7 @@ import os
 import sys
 import tempfile
 from newsroomFramework.settings import PROJECT_ROOT
+from django.urls import reverse
 
 # Create your models here.
 
@@ -135,12 +136,14 @@ class Artigo(models.Model):
     def __str__(self):
         return self.title
 
+    def get_absolute_url(self):
+        return reverse('article-edit', args=[self.id])
+
     def save(self, *args, **kwargs):
         
         super(Artigo, self).save(*args, **kwargs)
 
     def annotate(self):
-        print("entrou em annotate")
         onto = ontospy.Ontospy(os.path.join(PROJECT_ROOT, 'root-ontology.owl'))
         a = Annotator()
         web_concepts = a.get_reifications(onto)

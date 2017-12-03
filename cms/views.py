@@ -47,13 +47,10 @@ class ArticleCreateView(CreateView):
     model = Artigo
     form_class = ArticleForm
     template_name = 'cms/article_form.html'
-    print("Entrou na classe do form")
     def form_valid(self, form):
-        print("Formulário válido")     
         self.object = form.save(commit=False)
 
-        if request.POST.get("Anotar"):
-            print("recebeu o evento do botão anotar")  
+        if self.request.POST.get("annotate"):
             self.object.annotate() 
 
         self.object.save()
@@ -67,11 +64,10 @@ class ArticleUpdateView(UpdateView):
     model = Artigo
     form_class = ArticleForm
     template_name = 'cms/article_form.html'
-
     def form_valid(self, form):
         self.object = form.save(commit=False)
 
-        if request.POST.get("Anotar"):
+        if self.request.POST.get("annotate"):
             self.object.annotate()
 
         self.object.save()

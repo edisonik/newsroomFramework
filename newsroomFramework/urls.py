@@ -25,7 +25,7 @@ urlpatterns = [
     url(r'^form/$',form ),
     #url(r'^rdf/$', rdf),
     url(r'^kms/$', kms),
-    url(r'^add/$', ArticleCreateView.as_view(), name='post-add'),
-    url(r'^(?P<pk>\d+)/edit/$', ArticleUpdateView.as_view(), name='post-edit'),
-    url(r'^(?P<pk>\d+)/delete/$', ArticleDeleteView.as_view(), name='post-delete'),
+    url(r'^add/$', ArticleCreateView.as_view(), name='article-add'),
+    url(r'^(?P<pk>\d+)/edit/$', ArticleUpdateView.as_view(), name='article-edit'),
+    url(r'^(?P<pk>\d+)/delete/$', ArticleDeleteView.as_view(), name='article-delete'),
 ]
