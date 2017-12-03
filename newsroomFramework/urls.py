@@ -16,12 +16,16 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from cms.views import jornal
-from kms.views import kms
+from cms.views import *
+from kms.views import *
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^jornal/$', jornal),
+    url(r'^form/$',form ),
     #url(r'^rdf/$', rdf),
     url(r'^kms/$', kms),
+    url(r'^add/$', ArticleCreateView.as_view(), name='post-add'),
+    url(r'^(?P<pk>\d+)/edit/$', ArticleUpdateView.as_view(), name='post-edit'),
+    url(r'^(?P<pk>\d+)/delete/$', ArticleDeleteView.as_view(), name='post-delete'),
 ]

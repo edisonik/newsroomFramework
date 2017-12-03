@@ -24,7 +24,7 @@ from newsroomFramework.settings import PROJECT_ROOT
 
 # Create your models here.
 
-class Annotator(models.Model):
+class Annotator():
 
     @staticmethod
     def get_text_sentences(text):
@@ -135,16 +135,12 @@ class Artigo(models.Model):
     def __str__(self):
         return self.title
 
-    def annotationSuggest(self): #gera palavras chave
-        chave = self.title.split()
-        texto = ""
-        for i in chave:
-            if len(i)>3:
-                texto += i +", "
-        return texto
-
     def save(self, *args, **kwargs):
         
+        super(Artigo, self).save(*args, **kwargs)
+
+    def annotate(self):
+        print("entrou em annotate")
         onto = ontospy.Ontospy(os.path.join(PROJECT_ROOT, 'root-ontology.owl'))
         a = Annotator()
         web_concepts = a.get_reifications(onto)
@@ -159,7 +155,6 @@ class Artigo(models.Model):
                 texto += str(i) + "\n "
 
         self.semanticAnnotationsPath=texto
-        super(Artigo, self).save(*args, **kwargs)
 
 
 
