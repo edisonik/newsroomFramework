@@ -22,8 +22,54 @@ import sys
 import tempfile
 from newsroomFramework.settings import PROJECT_ROOT
 from django.urls import reverse
+from django import forms
 
-# Create your models here.
+from django.contrib.postgres.fields import ArrayField
+from django.forms import SelectMultiple
+from django_mysql.models import ListTextField
+
+
+class ArraySelectMultiple(SelectMultiple):
+
+    def value_omitted_from_data(self, data, files, name):
+        return False
+
+
+class ChoiceArrayField(ArrayField):
+
+    def formfield(self, **kwargs):
+        defaults = {
+            'form_class': forms.TypedMultipleChoiceField,
+            'choices': self.base_field.choices,
+            'coerce': self.base_field.to_python,
+            'widget': ArraySelectMultiple
+        }
+        defaults.update(kwargs)
+        # Skip our parent's formfield implementation completely as we don't care for it.
+        # pylint:disable=bad-super-call
+        return super(ArrayField, self).formfield(**defaults)
+'''
+    def db_type(self, connection):
+        return None
+
+   def from_db_value(self, value, expression, connection, context):
+        #Aqui carrega do banco(arquivo base.rdf)
+        if value is None:
+            return value
+        return parse_hand(value)
+
+    def to_python(self, value):
+        if isinstance(value, Hand):
+            return value
+
+        if value is None:
+            return value
+
+        return parse_hand(value)
+'''
+
+class Widget(models.Model):
+    widget_group_ids = ListTextField(base_field=models.IntegerField(),size=100,)
 
 class Annotator():
 
@@ -129,9 +175,17 @@ class Artigo(models.Model):
     sutian = models.CharField(max_length=50)
     creators = models.ManyToManyField(Creator)
     text = RichTextField(config_name='default', verbose_name=u'Matéria', default="")
-    semanticAnnotationsPath = models.TextField(verbose_name=u'Path para a Anotação Semântica', max_length=50)
-    relatedTexts = models.TextField(verbose_name=u'URL relacionadas', max_length=50)
+    #semanticAnnotationsPath = ChoiceArrayField(base_field=models.CharField(max_length=100),blank=True,null=True)
+    #semanticAnnotationsPath = models.TextField(verbose_name=u'Path para a Anotação Semântica', max_length=50000)
+    #semanticAnnotationsPath = Widget()
+    semanticAnnotationsPath = ListTextField(base_field=models.CharField(max_length=300),size=100,)
+    #semanticAnnotationsPath = models.ManyToManyField(models.CharField(max_length=400))
+    #semanticAnnotationsPath = ListTextField(base_field=models.CharField(max_length=200),size=100)
+    relatedTexts = models.TextField(verbose_name=u'URL relacionadas', max_length=50,blank=True,null=True)
     editoria = models.ManyToManyField(Editoria)
+    concepts_to_annotate = set()
+
+    a = Annotator()
 
     def __str__(self):
         return self.title
@@ -140,24 +194,28 @@ class Artigo(models.Model):
         return reverse('article-edit', args=[self.id])
 
     def save(self, *args, **kwargs):
-        
+        #Faz-se o seguinte por não se saber como construir um uri válido para o rdflib a partir das strings contidas em semanticAnnotationsPath
+        concepts_to_annotate_list = list(self.concepts_to_annotate)
+        if concepts_to_annotate_list:
+            for i in concepts_to_annotate_list:
+                if str(i) not in self.semanticAnnotationsPath:
+                    concepts_to_annotate_list.remove(i)
+        print(concepts_to_annotate_list)
+        self.a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),self.get_absolute_url(),concepts_to_annotate_list,self.creators).serialize(format='xml',destination = os.path.join(PROJECT_ROOT, 'base.rdf'))
+        semanticAnnotationsPath = [] 
+        print('salvou')
         super(Artigo, self).save(*args, **kwargs)
 
     def annotate(self):
         onto = ontospy.Ontospy(os.path.join(PROJECT_ROOT, 'root-ontology.owl'))
-        a = Annotator()
-        web_concepts = a.get_reifications(onto)
-        concepts_dict = a.uri_to_text(a.zika_ontology_uri_to_text,web_concepts)
-        reifications_to_annotate = [concepts_dict[' '.join(i)] for i in a.get_article_concepts(concepts_dict.keys(),self.text)]
-        concepts_to_annotate = set()
-        a.add_related_concepts(reifications_to_annotate,concepts_to_annotate)
-        a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),'http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/secretarias/svs/zika',list(concepts_to_annotate),"Vitor Silva").serialize(format='xml',destination = os.path.join(PROJECT_ROOT, 'base.rdf'))
+        web_concepts = self.a.get_reifications(onto)
+        concepts_dict = self.a.uri_to_text(self.a.zika_ontology_uri_to_text,web_concepts)
+        reifications_to_annotate = [concepts_dict[' '.join(i)] for i in self.a.get_article_concepts(concepts_dict.keys(),self.text)]
+        self.concepts_to_annotate.clear()
+        self.a.add_related_concepts(reifications_to_annotate,self.concepts_to_annotate)
+        self.semanticAnnotationsPath = [str(i) for i in list(self.concepts_to_annotate)]
+        super(Artigo, self).save(update_fields=['semanticAnnotationsPath'])
 
-        texto = ""
-        for i in concepts_to_annotate:
-                texto += str(i) + "\n "
-
-        self.semanticAnnotationsPath=texto
 
 
 

@@ -5,7 +5,7 @@ from .models import Creator, Editoria, Artigo
 
 
 class ArtigoAdmin(admin.ModelAdmin):
-    list_filter = ('semanticAnnotationsPath', )
+    list_filter = ( )
     #actions = [keySuggest]
 
 

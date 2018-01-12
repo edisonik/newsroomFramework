@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 import ckeditor.fields
 from django.db import migrations, models
+from cms.models import ChoiceArrayField,Widget
 
 
 class Migration(migrations.Migration):
@@ -21,7 +22,9 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=50)),
                 ('sutian', models.CharField(max_length=50)),
                 ('text', ckeditor.fields.RichTextField(default='', verbose_name='Matéria')),
-                ('semanticAnnotationsPath', models.TextField(max_length=50, verbose_name='Path para a Anotação Semântica')),
+                #('semanticAnnotationsPath',ChoiceArrayField(base_field=models.CharField(max_length=100),blank=True,null=True)),
+                #('semanticAnnotationsPath', models.TextField(max_length=50, verbose_name='Path para a Anotação Semântica')),
+                ('semanticAnnotationsPath', Widget()),
                 ('relatedTexts', models.TextField(max_length=50, verbose_name='URL relacionadas')),
             ],
         ),

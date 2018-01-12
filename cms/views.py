@@ -52,8 +52,8 @@ class ArticleCreateView(CreateView):
 
         if self.request.POST.get("annotate"):
             self.object.annotate() 
-
-        self.object.save()
+        else:
+            self.object.save()
         return HttpResponseRedirect(self.object.get_absolute_url())
 
     def dispatch(self, request, *args, **kwargs):
@@ -69,8 +69,8 @@ class ArticleUpdateView(UpdateView):
 
         if self.request.POST.get("annotate"):
             self.object.annotate()
-
-        self.object.save()
+        else:
+            self.object.save()
         return HttpResponseRedirect(self.object.get_absolute_url())
 
     def dispatch(self, request, *args, **kwargs):
