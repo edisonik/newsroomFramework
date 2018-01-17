@@ -200,10 +200,8 @@ class Artigo(models.Model):
             for i in concepts_to_annotate_list:
                 if str(i) not in self.semanticAnnotationsPath:
                     concepts_to_annotate_list.remove(i)
-        print(concepts_to_annotate_list)
+       
         self.a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),self.get_absolute_url(),concepts_to_annotate_list,self.creators).serialize(format='xml',destination = os.path.join(PROJECT_ROOT, 'base.rdf'))
-        semanticAnnotationsPath = [] 
-        print('salvou')
         super(Artigo, self).save(*args, **kwargs)
 
     def annotate(self):
@@ -214,7 +212,7 @@ class Artigo(models.Model):
         self.concepts_to_annotate.clear()
         self.a.add_related_concepts(reifications_to_annotate,self.concepts_to_annotate)
         self.semanticAnnotationsPath = [str(i) for i in list(self.concepts_to_annotate)]
-        super(Artigo, self).save(update_fields=['semanticAnnotationsPath'])
+        super(Artigo, self).save(update_fields=['semanticAnnotationsPath','text'])
 
 
 

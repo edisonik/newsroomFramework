@@ -13,35 +13,11 @@ import rdflib as rdf
 
 from cms.models import Artigo
 
-# Create your views here.
-def jornal(request):
-    edicao_dados = []
-    #edicao_dados.append( datetime.datetime.now())
-    artigo = Artigo.objects.all()
-    edicao_dados.append( artigo[0].title )
-    edicao_dados.append(artigo[0].sutian)
-    edicao_dados.append(artigo[0].text)
-    context = {'edicao_dados': edicao_dados}
+from django.views.generic.list import ListView
+from django.utils import timezone
 
-    return render(request, 'cms/pagina1.html', context )
-    #return render(request, 'cms/index.html', {'edicao_dados': edicao_dados} )
-
-def rdf(request):
-
-    return render(request, 'rdf.html')
-
-def form(request):
-    if request.method == 'POST':
-        form = ArticleForm(request.POST)
-        '''if request.POST.get("Salvar"):
-            #if form.is_valid():
-                #Aqui deve salvar o formulário
-                #return HttpResponseRedirect('/contact/thanks/')'''
-    else:
-        form = ArticleForm()
-    return render(request, 'cms/article_form.html', {'form': form})
-    
-
+class ArticleListView(ListView):
+    model = Artigo
 
 class ArticleCreateView(CreateView):
     model = Artigo
@@ -64,6 +40,7 @@ class ArticleUpdateView(UpdateView):
     model = Artigo
     form_class = ArticleForm
     template_name = 'cms/article_form.html'
+
     def form_valid(self, form):
         self.object = form.save(commit=False)
 
@@ -71,6 +48,7 @@ class ArticleUpdateView(UpdateView):
             self.object.annotate()
         else:
             self.object.save()
+
         return HttpResponseRedirect(self.object.get_absolute_url())
 
     def dispatch(self, request, *args, **kwargs):

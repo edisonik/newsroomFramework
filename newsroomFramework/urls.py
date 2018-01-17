@@ -21,11 +21,9 @@ from kms.views import *
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^jornal/$', jornal),
-    url(r'^form/$',form ),
-    #url(r'^rdf/$', rdf),
     url(r'^kms/$', kms),
     url(r'^add/$', ArticleCreateView.as_view(), name='article-add'),
-    url(r'^(?P<pk>\d+)/edit/$', ArticleUpdateView.as_view(), name='article-edit'),
+    url(r'^(?P<pk>\d+)/edit$', ArticleUpdateView.as_view(), name='article-edit'),
     url(r'^(?P<pk>\d+)/delete/$', ArticleDeleteView.as_view(), name='article-delete'),
+    url('', ArticleListView.as_view(), name='artigo-list'),
 ]
