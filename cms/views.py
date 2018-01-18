@@ -4,9 +4,10 @@ from django.views.generic.edit import CreateView
 from django.views.generic.edit import UpdateView
 from django.views.generic.edit import DeleteView
 from django.views import generic
-from cms.forms import ArticleForm
+from cms.forms import ArticleForm,SemanticSearchForm
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.core.urlresolvers import reverse
+from django.views.generic.edit import ModelFormMixin
 
 import datetime
 import rdflib as rdf
@@ -16,9 +17,14 @@ from cms.models import Artigo
 from django.views.generic.list import ListView
 from django.utils import timezone
 
-class ArticleListView(ListView):
+class ArticleListView(ListView,ModelFormMixin):
     model = Artigo
+    form_class = SemanticSearchForm
+    template_name = 'cms/semantic_query_form.html'
 
+    def get_queryset(self):
+        Artigo.objects.filter(pk__in=search_on_rdf( search_field1 = forms.ChoiceField(form.operator_field1,form.search_field2,form.operator_field2,form.search_field3))
+        
 class ArticleCreateView(CreateView):
     model = Artigo
     form_class = ArticleForm
