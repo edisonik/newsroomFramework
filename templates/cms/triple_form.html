@@ -1,0 +1,10 @@
+<h1>Conceitos</h1>
+<ul>
+{% for tipla in object_list %}
+    <li>
+        {{ tripla.objeto }}
+    </li>
+{% empty %}
+    <li>Sem anotações ainda.</li>
+{% endfor %}
+</ul>

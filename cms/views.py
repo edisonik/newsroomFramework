@@ -4,26 +4,24 @@ from django.views.generic.edit import CreateView
 from django.views.generic.edit import UpdateView
 from django.views.generic.edit import DeleteView
 from django.views import generic
-from cms.forms import ArticleForm,SemanticSearchForm
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.core.urlresolvers import reverse
 from django.views.generic.edit import ModelFormMixin
+from django.views.generic.list import ListView
+from django.utils import timezone
+
+from cms.forms import ArticleForm,SemanticSearchForm
+from cms.models import Artigo,Recurso,Tripla,Namespace
 
 import datetime
 import rdflib as rdf
 
-from cms.models import Artigo
 
-from django.views.generic.list import ListView
-from django.utils import timezone
 
 class ArticleListView(ListView,ModelFormMixin):
     model = Artigo
     form_class = SemanticSearchForm
     template_name = 'cms/semantic_query_form.html'
-
-    def get_queryset(self):
-        Artigo.objects.filter(pk__in=search_on_rdf( search_field1 = forms.ChoiceField(form.operator_field1,form.search_field2,form.operator_field2,form.search_field3))
         
 class ArticleCreateView(CreateView):
     model = Artigo
@@ -46,6 +44,14 @@ class ArticleUpdateView(UpdateView):
     model = Artigo
     form_class = ArticleForm
     template_name = 'cms/article_form.html'
+    
+    def get_context_data(self, **kwargs):
+
+        return dict(
+            super(ArticleUpdateView, self).get_context_data(**kwargs),
+            related_articles=Artigo.objects.all()[0:100],
+            related_concepts=Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=self.kwargs['pk']).values('objeto'))
+        )
 
     def form_valid(self, form):
         self.object = form.save(commit=False)
@@ -69,4 +75,5 @@ class ArticleDeleteView(DeleteView):
 
     def dispatch(self, request, *args, **kwargs):
         return super(ArticleDeleteView, self).dispatch(request, *args, **kwargs)
+    
 
