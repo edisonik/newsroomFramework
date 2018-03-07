@@ -3,24 +3,24 @@
     {{ form }}
     <input type="submit" value="Salvar" />
     <input type="submit" name ="annotate" value="Anotar" />
-    <h1>Artigos Relacionados</h1>
-    <ul>
-        {% for article in related_articles %}
-            <li>
-                <a href={{ article.get_absolute_url }}">{{ article.title }}</a> - {{ article.sutian }}
-            </li>
-            {% empty %}
-            <li>Nenhum artigo relacionado</li>
-        {% endfor %}
-    </ul>
     <h1>Conceitos presentes no texto</h1>
     <ul>
         {% for recurso in related_concepts %}
             <li>
-                <a href={{ recurso.uri }}">{{ recurso.uri }}</a> - {{ recurso.valor  }}
+               <input type="checkbox" name="concepts" value={{ recurso.pk }} id="concept" checked="checked"> <a href={{ recurso.uri }}>{{ recurso.uri }}</a> - {{ recurso.valor  }}
             </li>
             {% empty %}
             <li>Nenhuma anotação</li>
+        {% endfor %}
+    </ul>
+    <h1>Artigos Relacionados</h1>
+    <ul>
+        {% for article in related_articles %}
+            <li>
+                <a href={{ article.get_absolute_url }}>{{ article.title }}</a> - {{ article.sutian }}
+            </li>
+            {% empty %}
+            <li>Nenhum artigo relacionado</li>
         {% endfor %}
     </ul>
 </form>

@@ -65,10 +65,10 @@ class Annotator():
     @staticmethod
     def update_graph(basefile,doc_ref,annotations_concepts_uris,author):#Insere novas anotações no grafo presente em basefile ou cria um novo
      
-        AO = Namespace("http://smiy.sourceforge.net/ao/rdf/associationontology.owl")
+        AO = Namespace("http://purl.org/ao/core/")
         PAV = Namespace("http://cdn.rawgit.com/pav-ontology/pav/2.0/pav.owl")
         #ANN = Namespace("https://www.w3.org/2000/10/annotation-ns#annotates")
-        AOF = Namespace("http://annotation-ontology.googlecode.com/svn/trunk/annotation-foaf.owl")
+        AOF = Namespace("http://purl.org/ao/foaf/")
 
         graph = Graph()
         if os.path.isfile(basefile):

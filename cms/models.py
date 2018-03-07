@@ -46,14 +46,12 @@ class Artigo(models.Model):
         return reverse('article-edit', args=[self.id])
 
     def save(self, *args, **kwargs):
-        #Faz-se o seguinte por não se saber como construir um uri válido para o rdflib a partir das strings contidas em semanticAnnotationsPath
-        concepts_to_annotate_list = list(self.concepts_to_annotate)
-        #Aqui salva todos os fields do artigo e suas anotações
-        #self.a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),self.get_absolute_url(),concepts_to_annotate_list,self.creators).serialize(format='xml',destination = os.path.join(PROJECT_ROOT, 'base.rdf'))
+        
         super(Artigo, self).save(*args, **kwargs)
 
     def annotate(self, *args, **kwargs):
         
+        super(Artigo, self).save(*args, **kwargs)
         f = open('../newsroomFramework/newsroomFramework/namespace.owl', 'w')
         ns = File(f)
         ns.write(Namespace.objects.get(pk=1).rdf)
@@ -66,10 +64,22 @@ class Artigo(models.Model):
         reifications_to_annotate = [concepts_dict[' '.join(i)] for i in self.a.get_article_concepts(concepts_dict.keys(),self.text)]
         self.concepts_to_annotate.clear()
         self.a.add_related_concepts(reifications_to_annotate,self.concepts_to_annotate)
-        #Aqui apaga todas as anotações e insere as novas no banco
-        
-        print([str(i) for i in list(self.concepts_to_annotate)])
-        super(Artigo, self).save(*args, **kwargs)
+        actual_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=self))
+        concepts_to_annotate_queryset = Recurso.objects.filter(uri__in=list(self.concepts_to_annotate))
+        print(concepts_to_annotate_queryset)
+
+        to_delete = Tripla.objects.filter(objeto__in=actual_concepts).exclude(objeto__in=concepts_to_annotate_queryset)
+        #Não se deleta todas de uma vez devido ao bug do erro 1093 do mysql
+        for i in to_delete:
+            i.delete()
+
+        for i in concepts_to_annotate_queryset.exclude(pk__in=actual_concepts).values_list('uri',flat=True):
+            print(i)
+            d = Tripla.objects.create(artigo=self,predicado=Recurso.objects.get(uri='<Property *http://purl.org/ao/hasTopic*>'),objeto=Recurso.objects.get(uri=i))
+            d.save()
+    
+    def publish(self, *args, **kwargs):
+      self.a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),self.get_absolute_url(),concepts_to_annotate_list,self.creators).serialize(format='xml',destination = os.path.join(PROJECT_ROOT, 'base.rdf'))  
 
 class Publicado(models.Model):
     artigo = models.ForeignKey(Artigo)
@@ -77,10 +87,11 @@ class Publicado(models.Model):
     rdf_annotation = models.TextField(verbose_name=u'rdf_annotation', max_length=None)
 
 class Namespace(models.Model):
+    ns_ref = models.TextField(verbose_name=u'ref', max_length=None)
     rdf = models.TextField(verbose_name=u'rdf', max_length=None)
 
 class Recurso(models.Model):
-    namespace = models.ForeignKey(Namespace,null=True)
+    namespace = models.ForeignKey(Namespace)
     uri = RichTextField(verbose_name=u'uri')
     valor = RichTextField(verbose_name=u'valor')
 

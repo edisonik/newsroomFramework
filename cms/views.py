@@ -61,6 +61,8 @@ class ArticleUpdateView(UpdateView):
         else:
             self.object.save()
 
+        #print(request.POST.getlist('recommendations'))
+
         return HttpResponseRedirect(self.object.get_absolute_url())
 
     def dispatch(self, request, *args, **kwargs):
