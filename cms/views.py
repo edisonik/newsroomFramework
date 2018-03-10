@@ -59,9 +59,7 @@ class ArticleUpdateView(UpdateView):
         if self.request.POST.get("annotate"):
             self.object.annotate()
         else:
-            self.object.save()
-
-        #print(request.POST.getlist('recommendations'))
+            self.object.save(concepts=self.request.POST.getlist('concepts'))
 
         return HttpResponseRedirect(self.object.get_absolute_url())
 
