@@ -1,6 +1,6 @@
 from django.forms import ModelForm
 from django import forms
-from cms.models import Artigo
+from cms.models import Artigo,Recurso
 from kms.views import kms
 
 OPERATOR_CHOICES = (
@@ -14,7 +14,17 @@ def get_choices():
     return choices_list
 
 
+
+class ResourceChoiceField(forms.ModelChoiceField):
+
+    def label_from_instance(self, obj):
+        return '{valor} {uri}'.format(valor=obj.valor, uri=obj.uri)
+        
+
 class ArticleForm(ModelForm):
+
+    concept_to_add = ResourceChoiceField(queryset=Recurso.objects.all(),empty_label=None)
+
     class Meta:
         model = Artigo
         fields = ['title', 'sutian', 'creators', 'text','editoria']

@@ -1,0 +1,165 @@
+Metadata-Version: 1.1
+Name: django-simple-autocomplete
+Version: 1.11
+Summary: App enabling the use of jQuery UI autocomplete widget for ModelChoiceFields with minimal configuration required.
+Home-page: http://github.com/praekelt/django-simple-autocomplete
+Author: Praekelt Consulting
+Author-email: dev@praekelt.com
+License: BSD
+Description: Django Simple Autocomplete
+        ==========================
+        **App enabling the use of jQuery UI autocomplete widget for ModelChoiceFields with minimal configuration required.**
+        
+        .. contents:: Contents
+            :depth: 5
+        
+        Installation
+        ------------
+        
+        #. Install or add ``django-simple-autocomplete`` to your Python path.
+        
+        #. Add ``simple_autocomplete`` to your ``INSTALLED_APPS`` setting.
+        
+        #. Add (r'^simple-autocomplete/', include('simple_autocomplete.urls', namespace='simple_autocomplete')) to urlpatterns.
+        
+        #. Add ``<script src="{{ STATIC_URL }}simple_autocomplete/jquery-ui.js"></script>`` and
+           ``<link rel="stylesheet" href="{{ STATIC_URL }}simple_autocomplete/jquery-ui.css" />`` to your template.
+           You may need to override eg. ``templates/admin/base.html``. If you already have jQuery UI installed for
+           your site you may skip this step.
+        
+        Usage
+        -----
+        
+        Django by default renders a select widget (a.k.a. combobox or dropdown) for
+        foreign key fields. You can change the widget to an autocomplete widget by
+        adding the model to the SIMPLE_AUTOCOMPLETE_MODELS dictionary in your
+        settings file.  For instance, to use the autocomplete widget when selecting a
+        user do::
+        
+            SIMPLE_AUTOCOMPLETE = {'auth.user': {'search_field': 'username'}}
+        
+        The dictionary format allows arbitrary parameters to be introduced in future.
+        Parameter ``threshold`` indicates the minimum number of options required before
+        the widget is rendered as an autocomplete widget.  If the threshold is not met
+        the default widget is rendered::
+        
+            SIMPLE_AUTOCOMPLETE = {'auth.user': {'threshold': 10}}
+        
+        Parameter ``max_items`` indicates the maximum number of matches to display in the autocomplete dropdown. It defaults to 10.::
+        
+            SIMPLE_AUTOCOMPLETE = {'auth.user': {'max_items': 10}}
+        
+        Parameter ``duplicate_format_function`` is a lambda function that enables a custom string should more than one item in the autocomplete dropdown have the same string value.
+        It defaults to displaying the content type name. Set it using a lambda function, eg.::
+        
+            SIMPLE_AUTOCOMPLETE = {'auth.user': {'duplicate_format_function': lambda obj, model, content_type: 'id: %s' % obj.id}}
+        
+        The product attempts to use a field ``title`` for filtering the list. If the
+        model has no field ``title`` then the first CharField is used. Eg. for the user
+        model the field ``username`` is used.
+        
+        The widget can be used implicitly in a form. The declaration of
+        ``ModelChoiceField`` is all that is required::
+        
+            class MyForm(forms.Form):
+                user = forms.ModelChoiceField(queryset=User.objects.all(), initial=3)
+        
+        The widget can be used explicitly in a form. In such a case you must provide an
+        URL which returns results as JSON with format [(value, label), (value, label),...].
+        The ``initial`` and ``initial_display`` parameters are only required if there is
+        a starting value::
+        
+            from simple_autocomplete.widgets import AutoCompleteWidget
+        
+            class MyForm(forms.Form):
+                user = forms.ModelChoiceField(
+                    queryset=User.objects.all(),
+                    initial=3,
+                    widget=AutoCompleteWidget(
+                        url='/custom-json-query',
+                        initial_display='John Smith'
+                    )
+                )
+        
+        The ability to specify an URL for the widget enables you to hook up to other
+        more advanced autocomplete query engines if you wish.
+        
+        Authors
+        =======
+        
+        Praekelt Consulting
+        -------------------
+        * Hedley Roos
+        
+        Changelog
+        =========
+        
+        1.11
+        ----
+        #. Django 1.11 compatibility. Correct use of django.jQuery.
+        
+        1.9.1
+        -----
+        #. Ensure the static files are also deployed.
+        
+        1.9
+        ---
+        #. Django 1.9 compatibility. Support for previous versions has been dropped.
+        
+        0.5.2
+        -----
+        #. If a search field is supplied then the dropdown now shows those attributes, not the objects string representation.
+        
+        0.5.1
+        -----
+        #. Only apply autocomplete in cases where a default widget isn't supplied. This enables the product to work harmoniously with eg. Grappelli's autocomplete.
+        
+        0.5
+        ---
+        #. Preserve sort order of multiple choice values.
+        
+        0.4
+        ---
+        #. Deprecate `SIMPLE_AUTOCOMPLETE_MODELS` setting.
+        #. Django 1.6.2 compatibility.
+        
+        0.3.3
+        -----
+        #. Tests failing for Django 1.5. Pin to 1.4.x until that is fixed.
+        #. Handle case where an item that is referenced by a multiselect has been deleted from the database.
+        
+        0.3.2
+        -----
+        #. Allow `search_field` to be specified per model, in case the defaults don't suffice.
+        
+        0.3.1
+        -----
+        #. Fix unicode bug.
+        
+        0.3
+        ---
+        #. `max_items` setting specifies maximum number of items to display in autocomplete dropdown.
+        #. `duplicate_format_function` setting allows appending of a custom string if more than one item in the autocomplete dropdown has the same string value.
+        
+        0.2
+        ---
+        #. Clear autoselect helper in some cases for cleaner UI.
+        #. Use object string representation for display and not lookup fieldname.
+        
+        0.1
+        ---
+        #. Add autocomplete widget for multiple selections
+        #. Threshold setting to determine when to show autocomplete widget instead of normal widget
+        
+        0.0.1
+        -----
+        #. Initial release.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content

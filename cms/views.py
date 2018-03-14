@@ -1,5 +1,6 @@
 from django.shortcuts import get_object_or_404, render
 from django.http import Http404, HttpResponse, HttpResponseRedirect
+from django.template.loader import render_to_string
 from django.views.generic.edit import CreateView
 from django.views.generic.edit import UpdateView
 from django.views.generic.edit import DeleteView
@@ -49,7 +50,7 @@ class ArticleUpdateView(UpdateView):
 
         return dict(
             super(ArticleUpdateView, self).get_context_data(**kwargs),
-            related_articles=Artigo.objects.all()[0:100],
+            related_articles=Artigo.objects.all()[0:10],
             related_concepts=Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=self.kwargs['pk']).values('objeto'))
         )
 
@@ -58,8 +59,12 @@ class ArticleUpdateView(UpdateView):
 
         if self.request.POST.get("annotate"):
             self.object.annotate()
+        elif(self.request.POST.get("add_concept")):
+            self.object.save(concepts=(self.request.POST.getlist('concepts') + [form.cleaned_data['concept_to_add'].pk]))
+        elif(self.request.POST.get("publish")):
+            self.object.publish(html=render_to_string(template_name=self.template_name,context=self.get_context_data()))
         else:
-            self.object.save(concepts=self.request.POST.getlist('concepts'))
+            self.object.save(concepts=(self.request.POST.getlist('concepts')))
 
         return HttpResponseRedirect(self.object.get_absolute_url())
 

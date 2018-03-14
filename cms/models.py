@@ -10,9 +10,10 @@ from ckeditor.fields import RichTextField
 from newsroomFramework.settings import PROJECT_ROOT
 from cms.annotator import Annotator
 
+from datetime import datetime 
+
 import os
 import MySQLdb
-import datetime
 import ontospy 
 
 class Creator(models.Model):
@@ -47,24 +48,16 @@ class Artigo(models.Model):
 
     def save(self, *args, **kwargs):
         concepts_list = kwargs.pop('concepts')
-        print('Checkbox')
-        print(concepts_list)
         self.update_annotations_in_db(concepts_list)
         super(Artigo, self).save(*args, **kwargs)
 
     def update_annotations_in_db(self,concepts_to_annotate_list):
-        print("Argument List")
-        print(concepts_to_annotate_list)
+        
         actual_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.id)).values('objeto'))
-        print('Actual concepts')
-        print(actual_concepts)
 
         concepts_to_annotate_queryset = Recurso.objects.filter(pk__in=concepts_to_annotate_list)
-        print('Concepts to annotate')
-        print(concepts_to_annotate_queryset)
         triples_to_delete_queryset = Tripla.objects.filter(objeto__in=actual_concepts).exclude(pk__in=concepts_to_annotate_queryset)
-        print('Concepts to delete')
-        print(triples_to_delete_queryset)
+    
         #Não se deleta todas de uma vez devido ao bug do erro 1093 do mysql
         for i in triples_to_delete_queryset:
             i.delete()
@@ -91,10 +84,25 @@ class Artigo(models.Model):
         self.update_annotations_in_db(Recurso.objects.filter(uri__in=list(self.concepts_to_annotate)).values_list('pk',flat=True))
     
     def publish(self, *args, **kwargs):
-      self.a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),self.get_absolute_url(),concepts_to_annotate_list,self.creators).serialize(format='xml',destination = os.path.join(PROJECT_ROOT, 'base.rdf'))  
+
+        html = kwargs.pop('html')
+        try:
+            last_publish = Publicado.objects.get(artigo=Artigo.objects.get(pk=self.id)).order_by('-data')[:1]
+            f = open('../newsroomFramework/newsroomFramework/base.rdf', 'w')
+            ns = File(f)
+            ns.write(last_publish.rdf_annotation)
+            ns.close()
+        except Exception as e:
+            print(e)
+        concepts_to_annotate_list = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.id)).values('objeto')).values_list('uri',flat=True)
+        self.a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),self.get_absolute_url(),concepts_to_annotate_list,self.creators).serialize(format='xml',destination = os.path.join(PROJECT_ROOT, 'base.rdf'))
+        
+        p = Publicado.objects.create(artigo = self,html = html ,rdf_annotation = open(os.path.join(PROJECT_ROOT, 'base.rdf'),'r').read())
+        p.save() 
 
 class Publicado(models.Model):
     artigo = models.ForeignKey(Artigo)
+    data = models.DateTimeField(auto_now_add=True)
     html = models.TextField(verbose_name=u'html', max_length=None)
     rdf_annotation = models.TextField(verbose_name=u'rdf_annotation', max_length=None)
 
