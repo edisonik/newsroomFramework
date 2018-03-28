@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404, render
 from django.http import Http404, HttpResponse, HttpResponseRedirect
 from django.template.loader import render_to_string
 from django.views.generic.edit import CreateView,UpdateView,DeleteView
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.views.generic.list import ListView
 from django.utils import timezone
 from django.db.models import Max
@@ -81,7 +81,7 @@ class ArticleSearchView(ListView):
       
         #context['article_data'] = zip(list(published_articles),list(publish_set))
         context['artigos'] = self.get_queryset()
-        print(context['artigos'])
+        #print(context['artigos'])
         return context
 
     def get_queryset(self):
@@ -90,16 +90,18 @@ class ArticleSearchView(ListView):
         query = self.request.GET.get('q')
 
         if query:
-            print(query)
+            print(Publicado.objects.all().values('artigo'))
             published_articles = Artigo.objects.filter(pk__in=Publicado.objects.all().values('artigo')).order_by('pk')
+            print(published_articles)
             publish_set = Publicado.objects.none()
-            print(publish_set)
             for i in published_articles:
                 last_publish_date = Publicado.objects.filter(artigo=i).aggregate(Max('data'))
-                publish_set.union(Publicado.objects.filter(artigo=i).filter(data=last_publish_date['data__max']))
+                print(last_publish_date)
+                print(Publicado.objects.filter(artigo=i).filter(data=last_publish_date['data__max']))
+                publish_set = publish_set | Publicado.objects.filter(artigo=i).filter(data=last_publish_date['data__max'])
+            print("Publish set")
             print(publish_set)
             return Artigo.objects.filter(pk__in=publish_set.values('artigo')).filter(title__icontains=query)
-            return Artigo.objects.filter(title__icontains=query)
         
         return Artigo.objects.all()
         

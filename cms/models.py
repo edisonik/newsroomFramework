@@ -101,7 +101,7 @@ class Artigo(models.Model):
         p.save() 
 
 class Publicado(models.Model):
-    artigo = models.ForeignKey(Artigo)
+    artigo = models.ForeignKey(Artigo,on_delete=models.CASCADE)
     data = models.DateTimeField(auto_now_add=True)
     html = models.TextField(verbose_name=u'html', max_length=None)
     rdf_annotation = models.TextField(verbose_name=u'rdf_annotation', max_length=None)
@@ -114,14 +114,14 @@ class Namespace(models.Model):
     rdf = models.TextField(verbose_name=u'rdf', max_length=None)
 
 class Recurso(models.Model):
-    namespace = models.ForeignKey(Namespace)
+    namespace = models.ForeignKey(Namespace,null=True, on_delete=models.SET_NULL)
     uri = RichTextField(verbose_name=u'uri')
     valor = RichTextField(verbose_name=u'valor')
 
 class Tripla(models.Model):
-    artigo = models.ForeignKey(Artigo)
-    predicado = models.ForeignKey(Recurso,related_name='predicado')
-    objeto = models.ForeignKey(Recurso,related_name='objeto')
+    artigo = models.ForeignKey(Artigo,on_delete=models.CASCADE)
+    predicado = models.ForeignKey(Recurso,on_delete=models.CASCADE,related_name='predicado')
+    objeto = models.ForeignKey(Recurso,on_delete=models.CASCADE,related_name='objeto')
 
 
 
