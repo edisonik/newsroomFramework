@@ -1,10 +1,15 @@
-<h1>Articles</h1>
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    {{ form }}
+<h1>Artigos</h1>
 <ul>
-{% for article in object_list %}
+<input type="submit" value="Buscar" />
+{% for article in artigos %}
     <li>
         <a href={{ article.get_absolute_url }}">{{ article.title }}</a> - {{ article.sutian }}
     </li>
 {% empty %}
-    <li>No articles yet.</li>
+    <li>Nenhum resultado retornado.</li>
 {% endfor %}
 </ul>
+</form>

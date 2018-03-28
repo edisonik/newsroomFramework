@@ -106,6 +106,9 @@ class Publicado(models.Model):
     html = models.TextField(verbose_name=u'html', max_length=None)
     rdf_annotation = models.TextField(verbose_name=u'rdf_annotation', max_length=None)
 
+    def get_absolute_url(self):
+        return reverse('article-publish', args=[self.id])
+
 class Namespace(models.Model):
     ns_ref = models.TextField(verbose_name=u'ref', max_length=None)
     rdf = models.TextField(verbose_name=u'rdf', max_length=None)

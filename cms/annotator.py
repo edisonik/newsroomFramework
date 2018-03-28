@@ -9,6 +9,7 @@ from nltk.tag import pos_tag
 import urllib.request
 from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
+from datetime import datetime
 from bisect import bisect_left
 import urllib
 from urllib.parse import urlparse
@@ -85,8 +86,8 @@ class Annotator():
             d = Describer(graph)        
             d.rel(RDF.type,AO.Annotation)
             d.rel(AOF.annotatesDocument,doc_ref)
-            d.rel(AO.hasTopic,i.uri)
-            d.rel(PAV.createdOn,Literal(datetime.datetime.now(),datatype=XSD.date))
+            d.rel(AO.hasTopic,i)
+            d.rel(PAV.createdOn,Literal(datetime.now(),datatype=XSD.date))
             d.rel(PAV.createdB,Literal(author))
             graph.commit()
 

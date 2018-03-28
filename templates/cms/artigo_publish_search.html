@@ -1,0 +1,16 @@
+<form action="" method="get" novalidate>
+    {% csrf_token %}
+    {{ form }}
+<h1>Artigos</h1>
+<ul>
+<input class="searchfield" id="searchbox" name="q" type="text" value="{{ request.GET.q }}" placeholder="Search..."/>
+<input type="submit" value="Buscar" />
+{% for article in artigos %}
+    <li>
+        <a href={{ article.get_absolute_url }}">{{ article.title }}</a> - {{ article.sutian }}
+    </li>
+{% empty %}
+    <li>Nenhum resultado retornado.</li>
+{% endfor %}
+</ul>
+</form>

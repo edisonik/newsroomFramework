@@ -25,5 +25,6 @@ urlpatterns = [
     url(r'^add/$', ArticleCreateView.as_view(), name='article-add'),
     url(r'^(?P<pk>\d+)/edit$', ArticleUpdateView.as_view(), name='article-edit'),
     url(r'^(?P<pk>\d+)/delete/$', ArticleDeleteView.as_view(), name='article-delete'),
-    #url('', ArticleListView.as_view(), name='artigo-list'),
+    url(r'^(?P<pk>\d+)/publish/$', PublishedArticle, name='article-publish'),
+    url(r'^list/', ArticleSearchView.as_view(), name='article-search'),
 ]
