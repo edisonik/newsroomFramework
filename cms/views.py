@@ -11,6 +11,7 @@ from cms.forms import ArticleForm,ArticleSearchForm
 from cms.models import Artigo,Recurso,Tripla,Namespace,Publicado
 
 import datetime
+import re
 import rdflib as rdf
         
 class ArticleCreateView(CreateView):
@@ -74,7 +75,102 @@ class ArticleSearchView(ListView):
     template_name = 'cms/artigo_publish_search.html'
     #form_class = ArticleSearchForm
     #model = Artigo
+    @staticmethod
+    def infix_to_posfix(exp,**oprtrs):
 
+        stack = list()
+        out = list()
+        oprtrs_keys = oprtrs.keys()
+        for o in exp:
+            if o in oprtrs_keys:
+                if stack:
+                    op = stack.pop(0)
+                    while op != '(' and oprtrs[op] >= oprtrs[o] and stack:                    
+                        out.append(op)
+                        op = stack.pop(0)
+                stack.insert(0,o)
+            elif o == '(':
+                stack.insert(0,o)
+            elif o == ')':
+                op = stack.pop(0)
+                while op != '(' and stack:
+                    out.append(op)
+                    op = stack.pop(0)
+                out.append(op)
+                out.append(o)
+            else:
+                out.append(o)
+        while stack:
+            op = stack.pop(0)
+            out.append(op)
+
+        return(out)
+    @staticmethod
+    def process_posfix(exp,oprtrs_keys):
+        stack = list()
+        for o in exp:
+            if o not in oprtrs_keys:
+                stack.insert(0,o)
+            else:
+                lo = stack.pop(0)
+                ro = stack.pop(0)
+                if o == '&':
+                    result = lo & ro
+                elif o == '|':
+                    result = lo | ro
+                else:
+                    print("Operador desconhecido")
+                    return(queryset)
+
+                stack.insert(0,result)
+                
+        return(stack.pop(0))
+         
+    def make_set(self,field_dict,queryset,q_filter):
+        oprtrs= {'&':1,'|':0}
+        for field_type, field in field_dict.items():
+            if field:
+                quoteds = re.findall(r'"[^"]*"', field)
+                if quoteds:
+                    splited = list()
+                    field_pos = 0          
+                    for s in quoteds:
+                        quo_pos = field.find(s)
+                        splited.extend(field[field_pos:quo_pos].split(' '))
+                        splited.extend(s[1:-1])
+                        field_pos = quo_pos + len(s)
+                    splited.extend(field[field_pos:].split(' '))
+                else:
+                    splited = field.split(' ')
+               
+                operators_dict = { i:x for i,x in enumerate(splited) if x == '&' or x == '|' or x == '(' or x == ')' }
+                operators_dict_keys = list(operators_dict.keys())
+
+                if operators_dict_keys:
+                    query_position = operator_keys_pos = 0
+                    dict_lenght = len(operators_dict_keys)
+                    expression = list()
+                    while operator_keys_pos < dict_lenght:
+                        operator_position = operators_dict_keys[operator_keys_pos] 
+
+                        q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited[query_position:operator_position])}
+                
+                        expression.append(queryset.filter(**q_args))
+                        expression.append(operators_dict[operator_position]) 
+
+                        query_position = operator_position + 1
+                        operator_keys_pos += 1
+
+                    q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited[query_position:operator_position])}
+                    expression.append(queryset.filter(**q_args))
+                    queryset = self.process_posfix(self.infix_to_posfix(expression,**oprtrs),list(oprtrs.keys()))
+                else:
+                    q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited)}
+                    queryset = queryset.filter(**q_args)
+
+        print(queryset)
+        return(queryset)
+                
     def get_context_data(self, **kwargs):
 
         context = super().get_context_data(**kwargs)
@@ -86,23 +182,30 @@ class ArticleSearchView(ListView):
 
     def get_queryset(self):
         
-        #form = self.form_class(self.request.GET)
-        query = self.request.GET.get('q')
+        field_dict = dict()
+        field_dict['title'] = self.request.GET.get('t') 
+        field_dict['sutian'] = self.request.GET.get('s')
+        field_dict['recurso'] = self.request.GET.get('c')
+        field_dict['editor'] = self.request.GET.get('e')
+        field_dict['autors'] = self.request.GET.get('a')
+        
+        if field_dict['title'] or field_dict['sutian'] or field_dict['recurso'] or field_dict['editor'] or field_dict['autors']:
 
-        if query:
-            print(Publicado.objects.all().values('artigo'))
             published_articles = Artigo.objects.filter(pk__in=Publicado.objects.all().values('artigo')).order_by('pk')
-            print(published_articles)
             publish_set = Publicado.objects.none()
             for i in published_articles:
                 last_publish_date = Publicado.objects.filter(artigo=i).aggregate(Max('data'))
-                print(last_publish_date)
-                print(Publicado.objects.filter(artigo=i).filter(data=last_publish_date['data__max']))
                 publish_set = publish_set | Publicado.objects.filter(artigo=i).filter(data=last_publish_date['data__max'])
-            print("Publish set")
-            print(publish_set)
-            return Artigo.objects.filter(pk__in=publish_set.values('artigo')).filter(title__icontains=query)
-        
+
+            if field_dict['title'] or field_dict['sutian']:
+                q_article = self.make_set({k: field_dict[k] for k in ('title', 'sutian')},Artigo.objects.filter(pk__in=publish_set.values('artigo')),'icontains')
+            else:
+                q_article = Artigo.objects.all()
+
+            if field_dict['recurso']:
+                actual_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk__in=q_article)).values('objeto'))
+                q_recurso = self.make_set({k: field_dict[k] for k in ('recurso')},actual_concepts,'icontains')
+
         return Artigo.objects.all()
         
 def PublishedArticle(request):
