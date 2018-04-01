@@ -7,6 +7,7 @@
 <input class="searchfield" id="searchbox" name="s" type="text" value="{{ request.GET.s }}" placeholder="Títulos..."/>
 <input class="searchfield" id="searchbox" name="c" type="text" value="{{ request.GET.c }}" placeholder="Conceitos..."/>
 <input class="searchfield" id="searchbox" name="e" type="text" value="{{ request.GET.e }}" placeholder="Editorias..."/>
+<input class="searchfield" id="searchbox" name="u" type="text" value="{{ request.GET.u }}" placeholder="URIs..."/>
 <input class="searchfield" id="searchbox" name="a" type="text" value="{{ request.GET.a }}" placeholder="Autores..."/>
 <input type="submit" value="Buscar" />
 {% for article in artigos %}
