@@ -1,1 +1,3 @@
-{{ published|safe }}
+{% autoescape on %}
+    {{ published|safe }}
+{% endautoescape %}

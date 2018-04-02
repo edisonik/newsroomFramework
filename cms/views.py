@@ -5,7 +5,6 @@ from django.views.generic.edit import CreateView,UpdateView,DeleteView
 from django.urls import reverse
 from django.views.generic.list import ListView
 from django.utils import timezone
-from django.db.models import Max
 
 from cms.forms import ArticleForm,ArticleSearchForm
 from cms.models import Artigo,Recurso,Tripla,Namespace,Publicado
@@ -168,16 +167,13 @@ class ArticleSearchView(ListView):
                     q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited)}
                     queryset = queryset.filter(**q_args)
 
-        print(queryset)
         return(queryset)
                 
     def get_context_data(self, **kwargs):
 
         context = super().get_context_data(**kwargs)
-      
-        #context['article_data'] = zip(list(published_articles),list(publish_set))
         context['artigos'] = self.get_queryset()
-        #print(context['artigos'])
+
         return context
 
     def get_queryset(self):
@@ -189,21 +185,15 @@ class ArticleSearchView(ListView):
         field_dict['uri'] = self.request.GET.get('u')
         field_dict['topico'] = self.request.GET.get('e')
         field_dict['name'] = self.request.GET.get('a')
-        
-        if field_dict.values():
 
-            published_articles = Artigo.objects.filter(pk__in=Publicado.objects.all().values('artigo')).order_by('pk')
-            publish_set = Publicado.objects.none()
-            for i in published_articles:
-                last_publish_date = Publicado.objects.filter(artigo=i).aggregate(Max('data'))
-                publish_set = publish_set | Publicado.objects.filter(artigo=i).filter(data=last_publish_date['data__max'])
+        published_articles = Artigo.objects.filter(pk__in=Publicado.objects.all().values('artigo')).order_by('pk')
+
+        if [f for f in field_dict.values() if f is not None]:
 
             if field_dict['title'] or field_dict['sutian']:
-                q_article = self.make_set({k: field_dict[k] for k in ('title', 'sutian')},Artigo.objects.filter(pk__in=publish_set.values('artigo')),'icontains')
-            else:
-                q_article = Artigo.objects.filter(pk__in=publish_set.values('artigo'))
+                q_article = self.make_set({k: field_dict[k] for k in ('title', 'sutian')},Artigo.objects.filter(pk__in=published_articles),'icontains')
 
-            if field_dict['recurso']:
+            if field_dict['valor']:
                 q_recurso = self.make_set({k: field_dict[k] for k in ('valor','uri')},Recurso.objects.all(),'icontains')
                 q_article = q_article | q_article.filter(pk__in=Tripla.objects.filter(objeto__in=q_recurso).values('artigo'))
 
@@ -217,11 +207,18 @@ class ArticleSearchView(ListView):
 
             return(q_article)
 
-        return Artigo.objects.all()
+        return published_articles
         
-def PublishedArticle(request):
+def PublishedArticle(request,**kwargs):
 
-    published = Publicado.objects.filter(id=self.kwargs['pk']).values('html')
+    published = Publicado.objects.filter(pk=kwargs['pk']).values('html')
+    context = {'published': published}
+
+    return render(request, 'cms/published.html', context)
+
+def PublishedRdf(request,**kwargs):
+
+    published = Publicado.objects.filter(pk=kwargs['pk']).values('rdf')
     context = {'published': published}
 
     return render(request, 'cms/published.html', context)

@@ -26,5 +26,6 @@ urlpatterns = [
     url(r'^(?P<pk>\d+)/edit$', ArticleUpdateView.as_view(), name='article-edit'),
     url(r'^(?P<pk>\d+)/delete/$', ArticleDeleteView.as_view(), name='article-delete'),
     url(r'^(?P<pk>\d+)/publish/$', PublishedArticle, name='article-publish'),
+    url(r'^(?P<pk>\d+)/publish/rdf$', PublishedArticle, name='article-rdf'),
     url(r'^list/', ArticleSearchView.as_view(), name='article-search'),
 ]

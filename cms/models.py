@@ -5,6 +5,7 @@ from django.contrib.postgres.fields import ArrayField
 from django.forms import SelectMultiple
 from django_mysql.models import ListTextField
 from django.core.files import File
+from django.db.models import Max
 
 from ckeditor.fields import RichTextField
 from newsroomFramework.settings import PROJECT_ROOT
@@ -45,6 +46,13 @@ class Artigo(models.Model):
 
     def get_absolute_url(self):
         return reverse('article-edit', args=[self.id])
+
+    def get_last_publish(self):
+        last_publish_date = Publicado.objects.filter(artigo=self.id).aggregate(Max('data'))
+        return(Publicado.objects.filter(artigo=self.id).filter(data=last_publish_date['data__max']).get())
+    
+    def get_last_publish_url(self):
+        return(self.get_last_publish().get_absolute_url())
 
     def save(self, *args, **kwargs):
         concepts_list = kwargs.pop('concepts')
@@ -107,6 +115,7 @@ class Publicado(models.Model):
     rdf_annotation = models.TextField(verbose_name=u'rdf_annotation', max_length=None)
 
     def get_absolute_url(self):
+        print(reverse('article-publish', args=[self.id]))
         return reverse('article-publish', args=[self.id])
 
 class Namespace(models.Model):
