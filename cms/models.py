@@ -5,7 +5,7 @@ from django.contrib.postgres.fields import ArrayField
 from django.forms import SelectMultiple
 from django_mysql.models import ListTextField
 from django.core.files import File
-from django.db.models import Max
+from django.db.models import Max,Count
 
 from ckeditor.fields import RichTextField
 from newsroomFramework.settings import PROJECT_ROOT
@@ -115,7 +115,6 @@ class Publicado(models.Model):
     rdf_annotation = models.TextField(verbose_name=u'rdf_annotation', max_length=None)
 
     def get_absolute_url(self):
-        print(reverse('article-publish', args=[self.id]))
         return reverse('article-publish', args=[self.id])
 
 class Namespace(models.Model):

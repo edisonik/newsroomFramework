@@ -12,7 +12,7 @@
 <input type="submit" value="Buscar" />
 {% for article in artigos %}
     <li>
-        <a href={{ article.get_last_publish_url }}">{{ article.title }}</a> - {{ article.sutian }}
+        <a href={{ article.get_last_publish_url }}>{{ article.title }}</a> - {{ article.sutian }}
     </li>
 {% empty %}
     <li>Nenhum resultado retornado.</li>

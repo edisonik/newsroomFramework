@@ -5,6 +5,7 @@ from django.views.generic.edit import CreateView,UpdateView,DeleteView
 from django.urls import reverse
 from django.views.generic.list import ListView
 from django.utils import timezone
+from django.db.models import Count,Q
 
 from cms.forms import ArticleForm,ArticleSearchForm
 from cms.models import Artigo,Recurso,Tripla,Namespace,Publicado
@@ -34,11 +35,24 @@ class ArticleUpdateView(UpdateView):
     form_class = ArticleForm
     template_name = 'cms/article_form.html'
     
+    def get_related_articles(self):
+
+        article_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.kwargs['pk'])).values('objeto'))
+ 
+        published_related = Artigo.objects.filter(pk__in=Tripla.objects.filter(objeto__in=article_concepts)\
+                            .values('artigo')).filter(pk__in=Publicado.objects.all().values('artigo')).exclude(pk=self.kwargs['pk'])\
+                            .annotate(qt_related=Count('tripla__pk',filter=Q(tripla__objeto__in=article_concepts))).order_by('qt_related')
+        
+        return(published_related)
+        
+        last_publish_date = Publicado.objects.filter(artigo=self.id).aggregate(Max('data'))
+        return(Publicado.objects.filter(artigo=self.id).filter(data=last_publish_date['data__max']).get())
+
     def get_context_data(self, **kwargs):
 
         return dict(
             super(ArticleUpdateView, self).get_context_data(**kwargs),
-            related_articles=Artigo.objects.all()[0:10],
+            related_articles=self.get_related_articles()[0:5],
             related_concepts=Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=self.kwargs['pk']).values('objeto'))
         )
 
@@ -69,11 +83,19 @@ class ArticleDeleteView(DeleteView):
     def dispatch(self, request, *args, **kwargs):
         return super(ArticleDeleteView, self).dispatch(request, *args, **kwargs)
 
+class ArticleListView(ListView):
+	template_name = 'cms/artigo_list.html'
+	model = Artigo
+	
+	def get_context_data(self, **kwargs):
+            context = super().get_context_data(**kwargs)
+
+            return context
+
 class ArticleSearchView(ListView):
-    
+
     template_name = 'cms/artigo_publish_search.html'
-    #form_class = ArticleSearchForm
-    #model = Artigo
+    
     @staticmethod
     def infix_to_posfix(exp,**oprtrs):
 
@@ -218,8 +240,17 @@ def PublishedArticle(request,**kwargs):
 
 def PublishedRdf(request,**kwargs):
 
-    published = Publicado.objects.filter(pk=kwargs['pk']).values('rdf')
+    published = Publicado.objects.filter(pk=kwargs['pk']).values('rdf_annotation')
+    print(published)
     context = {'published': published}
 
     return render(request, 'cms/published.html', context)
+
+def Menu(request,**kwargs):
+
+    if request.POST.get("artigos_lists"):
+        return HttpResponseRedirect(reverse('article-list'))
+    elif request.POST.get("publish_search"):
+        return HttpResponseRedirect(reverse('article-search'))
+
 
