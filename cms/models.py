@@ -6,6 +6,7 @@ from django.forms import SelectMultiple
 from django_mysql.models import ListTextField
 from django.core.files import File
 from django.db.models import Max,Count
+from django.utils.html import strip_tags
 
 from ckeditor.fields import RichTextField
 from newsroomFramework.settings import PROJECT_ROOT
@@ -16,6 +17,7 @@ from datetime import datetime
 import os
 import MySQLdb
 import ontospy 
+import bleach
 
 class Creator(models.Model):
     name = models.CharField(max_length=50)
@@ -34,9 +36,9 @@ class Artigo(models.Model):
 
     title = models.CharField(max_length=50)
     sutian = models.CharField(max_length=50)
-    creators = models.ManyToManyField(Creator)
     text = RichTextField(config_name='default', verbose_name=u'Matéria', default="")
     editoria = models.ManyToManyField(Editoria)
+    creators = models.ManyToManyField(Creator)
     concepts_to_annotate = set()
 
     a = Annotator()
@@ -93,7 +95,8 @@ class Artigo(models.Model):
     
     def publish(self, *args, **kwargs):
 
-        html = kwargs.pop('html')
+        html = bleach.clean(kwargs.pop('html'))
+
         try:
             last_publish = Publicado.objects.get(artigo=Artigo.objects.get(pk=self.id)).order_by('-data')[:1]
             f = open('../newsroomFramework/newsroomFramework/base.rdf', 'w')

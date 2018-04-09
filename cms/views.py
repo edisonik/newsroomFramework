@@ -13,6 +13,7 @@ from cms.models import Artigo,Recurso,Tripla,Namespace,Publicado
 import datetime
 import re
 import rdflib as rdf
+
         
 class ArticleCreateView(CreateView):
     model = Artigo
@@ -64,6 +65,7 @@ class ArticleUpdateView(UpdateView):
         elif(self.request.POST.get("add_concept")):
             self.object.save(concepts=(self.request.POST.getlist('concepts') + [form.cleaned_data['concept_to_add'].pk]))
         elif(self.request.POST.get("publish")):
+
             self.object.publish(html=render_to_string(template_name=self.template_name,context=self.get_context_data()))
         else:
             self.object.save(concepts=(self.request.POST.getlist('concepts')))
