@@ -6,28 +6,12 @@
 </head>
 <form action="" method="post" novalidate>
     {% csrf_token %}
-    {{ form.title }}
-    {{ form.sutian }}
-    {{ form.text }}
-
-    
-    <ul>
-        <p>Editorias:</p>
-        {% for ed in editor %}
-            <li>{{ ed }}</li>
-        {% endfor %}
-    </ul>
-    <ul>
-        <p>Autores:</p>
-        {% for creator in autors %}
-            <li>{{ creator }}</li>
-        {% endfor %}
-    </ul> 
+    {{ form }}      
     <h1>Conceitos presentes no texto</h1>
     <ul>
         {% for recurso in related_concepts %}
             <li>
-                <a href={{ recurso.uri }}>{{ recurso.uri }}</a> - {{ recurso.valor  }}
+               <a href={{ recurso.uri }}>{{ recurso.uri }}</a> - {{ recurso.valor  }}
             </li>
             {% empty %}
             <li>Nenhuma anotação</li>

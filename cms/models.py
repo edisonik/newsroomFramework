@@ -62,11 +62,12 @@ class Artigo(models.Model):
         super(Artigo, self).save(*args, **kwargs)
 
     def update_annotations_in_db(self,concepts_to_annotate_list):
-        
-        actual_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.id)).values('objeto'))
+
+        article_obj = Artigo.objects.get(pk=self.id)
+        actual_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=article_obj).values('objeto'))
 
         concepts_to_annotate_queryset = Recurso.objects.filter(pk__in=concepts_to_annotate_list)
-        triples_to_delete_queryset = Tripla.objects.filter(objeto__in=actual_concepts).exclude(pk__in=concepts_to_annotate_queryset)
+        triples_to_delete_queryset = Tripla.objects.filter(objeto__in=actual_concepts).filter(artigo=article_obj).exclude(pk__in=concepts_to_annotate_queryset)
     
         #Não se deleta todas de uma vez devido ao bug do erro 1093 do mysql
         for i in triples_to_delete_queryset:
@@ -94,8 +95,8 @@ class Artigo(models.Model):
         self.update_annotations_in_db(Recurso.objects.filter(uri__in=list(self.concepts_to_annotate)).values_list('pk',flat=True))
     
     def publish(self, *args, **kwargs):
-
-        html = bleach.clean(kwargs.pop('html'))
+        #pega html da página e faz um saneamento retiirando caracteres indesejados
+        html = kwargs.pop('html').replace('\n','').replace('\r','')
 
         try:
             last_publish = Publicado.objects.get(artigo=Artigo.objects.get(pk=self.id)).order_by('-data')[:1]

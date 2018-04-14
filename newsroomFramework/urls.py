@@ -29,4 +29,5 @@ urlpatterns = [
     url(r'^(?P<pk>\d+)/publish/rdf$', PublishedRdf, name='article-rdf'),
     url(r'^search/', ArticleSearchView.as_view(), name='article-search'),
     url(r'^list/', ArticleListView.as_view(), name='article-list'),
+    url(r'^menu/', Menu, name='menu'),
 ]

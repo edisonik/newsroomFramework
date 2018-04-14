@@ -1,0 +1,26 @@
+#id_article_list {
+    position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 40%;
+    width: 200px;
+}
+
+#id_published_articles {
+    position:absolute;
+    transition: .5s ease;
+    top: 40%;
+    left: 40%;
+    width: 200px;
+}
+
+#id_new_article {
+    position:absolute;
+    transition: .5s ease;
+    top: 30%;
+    left: 40%;
+    width: 200px;
+}
+
+
+

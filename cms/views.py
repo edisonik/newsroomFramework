@@ -13,7 +13,6 @@ from cms.models import Artigo,Recurso,Tripla,Namespace,Publicado
 import datetime
 import re
 import rdflib as rdf
-
         
 class ArticleCreateView(CreateView):
     model = Artigo
@@ -39,11 +38,9 @@ class ArticleUpdateView(UpdateView):
     def get_related_articles(self):
 
         article_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.kwargs['pk'])).values('objeto'))
- 
         published_related = Artigo.objects.filter(pk__in=Tripla.objects.filter(objeto__in=article_concepts)\
                             .values('artigo')).filter(pk__in=Publicado.objects.all().values('artigo')).exclude(pk=self.kwargs['pk'])\
                             .annotate(qt_related=Count('tripla__pk',filter=Q(tripla__objeto__in=article_concepts))).order_by('qt_related')
-        
         return(published_related)
         
         last_publish_date = Publicado.objects.filter(artigo=self.id).aggregate(Max('data'))
@@ -54,7 +51,9 @@ class ArticleUpdateView(UpdateView):
         return dict(
             super(ArticleUpdateView, self).get_context_data(**kwargs),
             related_articles=self.get_related_articles()[0:5],
-            related_concepts=Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=self.kwargs['pk']).values('objeto'))
+            related_concepts=Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=self.kwargs['pk']).values('objeto')),
+            editor=Artigo.objects.get(pk=self.kwargs['pk']).editoria.all(),
+            autors=Artigo.objects.get(pk=self.kwargs['pk']).creators.all()
         )
 
     def form_valid(self, form):
@@ -65,16 +64,17 @@ class ArticleUpdateView(UpdateView):
         elif(self.request.POST.get("add_concept")):
             self.object.save(concepts=(self.request.POST.getlist('concepts') + [form.cleaned_data['concept_to_add'].pk]))
         elif(self.request.POST.get("publish")):
-
-            self.object.publish(html=render_to_string(template_name=self.template_name,context=self.get_context_data()))
+            print(Artigo.objects.get(pk=self.kwargs['pk']).editoria.all())
+            print(Artigo.objects.get(pk=self.kwargs['pk']).creators.all())
+            self.object.publish(html=render_to_string(template_name='cms/published.html',context=self.get_context_data()))
         else:
+            form.save_m2m()
             self.object.save(concepts=(self.request.POST.getlist('concepts')))
 
         return HttpResponseRedirect(self.object.get_absolute_url())
 
     def dispatch(self, request, *args, **kwargs):
         return super(ArticleUpdateView, self).dispatch(request, *args, **kwargs)
-
 
 class ArticleDeleteView(DeleteView):
     model = Artigo
@@ -238,15 +238,14 @@ def PublishedArticle(request,**kwargs):
     published = Publicado.objects.filter(pk=kwargs['pk']).values('html')
     context = {'published': published}
 
-    return render(request, 'cms/published.html', context)
+    return render(request, 'cms/only_render.html', context)
 
 def PublishedRdf(request,**kwargs):
 
     published = Publicado.objects.filter(pk=kwargs['pk']).values('rdf_annotation')
-    print(published)
     context = {'published': published}
 
-    return render(request, 'cms/published.html', context)
+    return render(request, 'cms/only_render.html', context)
 
 def Menu(request,**kwargs):
 
@@ -254,5 +253,9 @@ def Menu(request,**kwargs):
         return HttpResponseRedirect(reverse('article-list'))
     elif request.POST.get("publish_search"):
         return HttpResponseRedirect(reverse('article-search'))
+    elif request.POST.get("new_article"):
+        return HttpResponseRedirect(reverse('article-add'))
+    
+    return render(request, 'cms/menu.html')
 
 

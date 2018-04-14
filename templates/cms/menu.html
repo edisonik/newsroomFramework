@@ -1,0 +1,17 @@
+{% load staticfiles %}
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<head>
+    <link rel="stylesheet" href="{% static 'css/menu.css' %}"> 
+</head>
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    <body>
+        
+        <input type="submit" name ="artigos_lists"value="Lista de artigos" id="id_article_list"/>
+        <input type="submit" name ="publish_search" value="Artigos Publicados" id="id_published_articles" />
+        <input type="submit" name ="new_article" value="Novo Artigo" id="id_new_article" />
+
+    </body>
+</form>
+
