@@ -88,7 +88,9 @@ class Annotator():
             d.rel(AOF.annotatesDocument,doc_ref)
             d.rel(AO.hasTopic,i)
             d.rel(PAV.createdOn,Literal(datetime.now(),datatype=XSD.date))
-            d.rel(PAV.createdB,Literal(author))
+            for i in author:
+                d.rel(PAV.createdB,Literal(i))
+                
             graph.commit()
 
                                     

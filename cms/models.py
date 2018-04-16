@@ -35,7 +35,7 @@ class Editoria(models.Model):
 class Artigo(models.Model):
 
     title = models.CharField(max_length=50)
-    sutian = models.CharField(max_length=50)
+    sutian = models.CharField(max_length=50,blank=True)
     text = RichTextField(config_name='default', verbose_name=u'Matéria', default="")
     editoria = models.ManyToManyField(Editoria)
     creators = models.ManyToManyField(Creator)
@@ -57,8 +57,12 @@ class Artigo(models.Model):
         return(self.get_last_publish().get_absolute_url())
 
     def save(self, *args, **kwargs):
-        concepts_list = kwargs.pop('concepts')
-        self.update_annotations_in_db(concepts_list)
+        try:
+            concepts_list = kwargs.pop('concepts')
+            self.update_annotations_in_db(concepts_list)
+        except KeyError:
+            pass
+            
         super(Artigo, self).save(*args, **kwargs)
 
     def update_annotations_in_db(self,concepts_to_annotate_list):
@@ -107,9 +111,9 @@ class Artigo(models.Model):
         except Exception as e:
             print(e)
         concepts_to_annotate_list = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.id)).values('objeto')).values_list('uri',flat=True)
-        self.a.update_graph(os.path.join(PROJECT_ROOT, 'base.rdf'),self.get_absolute_url(),concepts_to_annotate_list,self.creators).serialize(format='xml',destination = os.path.join(PROJECT_ROOT, 'base.rdf'))
+        self.a.update_graph(os.path.join(PROJECT_ROOT, str(self.id) + '.rdf'),self.get_absolute_url(),concepts_to_annotate_list,self.creators.all().values_list('name',flat=True)).serialize(format='xml',destination = os.path.join(PROJECT_ROOT, str(self.id) + '.rdf'))
         
-        p = Publicado.objects.create(artigo = self,html = html ,rdf_annotation = open(os.path.join(PROJECT_ROOT, 'base.rdf'),'r').read())
+        p = Publicado.objects.create(artigo = self,html = html ,rdf_annotation = open(os.path.join(PROJECT_ROOT, str(self.id) + '.rdf'),'r').read())
         p.save() 
 
 class Publicado(models.Model):
@@ -134,9 +138,4 @@ class Tripla(models.Model):
     artigo = models.ForeignKey(Artigo,on_delete=models.CASCADE)
     predicado = models.ForeignKey(Recurso,on_delete=models.CASCADE,related_name='predicado')
     objeto = models.ForeignKey(Recurso,on_delete=models.CASCADE,related_name='objeto')
-
-
-
-
-
 

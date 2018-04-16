@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/core/"
+   xmlns:aof="http://purl.org/ao/foaf/"
+   xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="N53d560c9b7d8409aae2ca71ad9e0b677">
+    <aof:annotatesDocument rdf:resource="/2/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-15T16:31:29.430112</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Vitor</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7955466a5a9e41589fd55ca6ffe5bfcd">
+    <ns1:pav.owlcreatedB>Vitor</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-15T16:31:29.430764</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/2/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N245ccbbb23874b049b34cbcbac941339">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-15T16:31:29.428492</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Vitor</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/2/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na7c0f9fc0f734767af243dd174ca719a">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/2/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-15T16:31:29.429448</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Vitor</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0e4fc5fd9433439b992722a68fdcf9a3">
+    <aof:annotatesDocument rdf:resource="/2/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Vitor</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-15T16:31:29.431710</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na48eec494a3048c69dc107cd96d0815c">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/2/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-15T16:31:29.430442</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Vitor</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N01d37313c2af4e43a5e4083f0940eef2">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-15T16:31:29.431391</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/2/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <ns1:pav.owlcreatedB>Vitor</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf0333bfb77f74858812fb6d2378b358e">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/2/edit/"/>
+    <ns1:pav.owlcreatedB>Vitor</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-15T16:31:29.429791</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7232ef60e2344bb1ba2ef95d4027bee0">
+    <ns1:pav.owlcreatedB>Vitor</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-15T16:31:29.431078</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/2/edit/"/>
+  </rdf:Description>
+</rdf:RDF>

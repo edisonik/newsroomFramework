@@ -64,12 +64,10 @@ class ArticleUpdateView(UpdateView):
         elif(self.request.POST.get("add_concept")):
             self.object.save(concepts=(self.request.POST.getlist('concepts') + [form.cleaned_data['concept_to_add'].pk]))
         elif(self.request.POST.get("publish")):
-            print(Artigo.objects.get(pk=self.kwargs['pk']).editoria.all())
-            print(Artigo.objects.get(pk=self.kwargs['pk']).creators.all())
             self.object.publish(html=render_to_string(template_name='cms/published.html',context=self.get_context_data()))
         else:
-            form.save_m2m()
             self.object.save(concepts=(self.request.POST.getlist('concepts')))
+            form.save_m2m()
 
         return HttpResponseRedirect(self.object.get_absolute_url())
 
@@ -243,9 +241,9 @@ def PublishedArticle(request,**kwargs):
 def PublishedRdf(request,**kwargs):
 
     published = Publicado.objects.filter(pk=kwargs['pk']).values('rdf_annotation')
-    context = {'published': published}
-
-    return render(request, 'cms/only_render.html', context)
+    response = HttpResponse(published[0]['rdf_annotation'], content_type="application/rdf+xml")
+    response['Content-Disposition'] = 'inline ; filename=' + 'article.rdf'
+    return response
 
 def Menu(request,**kwargs):
 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/core/"
+   xmlns:aof="http://purl.org/ao/foaf/"
+   xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="Nb7bdcae04afb41238136b188c1bdf474">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-16T00:52:45.013403</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbcd11c73352e4c8f91182cd623792f8e">
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-16T00:52:45.006992</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N15db8ac8817c4674ab072a5353b66101">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-16T00:52:45.010722</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N57390f1baf9f4f5fb20f969e575a1d2e">
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-16T00:52:45.011563</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N11bab4de9f8647cf9e1529e5ba985fc9">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-16T00:52:45.012905</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5b0c49610c5c4c9a949beef9e545053e">
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-16T00:52:45.010095</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9583b935cf9142b099ebc699e7e238c8">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-16T00:52:45.012232</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+</rdf:RDF>
