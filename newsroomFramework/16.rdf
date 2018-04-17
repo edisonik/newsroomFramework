@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/core/"
+   xmlns:aof="http://purl.org/ao/foaf/"
+   xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="Nb5b454b2bd3c4896af59abba1b442a1e">
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.980651</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd06763752d66434daca9779cc5439f0b">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Notificação_Compulsória*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.988516</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9279002024004728905ec613448f909a">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne7511f9c454447fbbe603f0e7d5e059e">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Resultado*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1ccf4a438e0d4573ab0c2373139c9aa4">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.990935</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc409f8dd8c2d47bc96fa39fba69d2177">
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.989373</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c30a7d6ea2848c680be430a32e1b014">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Notificação_Compulsória*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8acf15be49f24c5b8f3efaf1ea9f0858">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9bff8b69c72b4b34869ddfdaa9a84e5c">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.983321</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd75641a134f4a07a3a76364ae7fd3f9">
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.982767</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N14d60b29b1e843a380865fa7678f80cc">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c04a7e2a3fa46eaa8ae06f41ff76551">
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.976654</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2b9d7aa769774add93fde06348092ebb">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.981653</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncf094b6d53ba41bbbe4ae7578b3fc4c2">
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7685473a64574092b17760d647a5b3cc">
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf3fddd20c3594a46a604327194f32196">
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.987581</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb337dd77a03b4558a4206bdba8a5b4c7">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano*&gt;"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na4ca6a54a4e8451d8a7b958500d52b85">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Gestante*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N114a2b559c754d898885e111d2bdf0cd">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.990197</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne009a2cff3a349bcb06a1282d7c6fe56">
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N76dfe10fbae34687a33d1c8f41053296">
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N839197113c35432e948ffdd257178f4e">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.991271</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N967f26deb7c244da9f7ded2927db338c">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na994c2a8071941c59bd8df5190629b3c">
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7d1e5e9123d347e4b564ca8467e63833">
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Resultado*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.990560</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2835327f25f1440680ba900eeb1320cd">
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.982253</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N83e95dfdfb86463caef4069b24dbd835">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Gestante*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.983904</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6eff697908a14eef80e62302d00985f1">
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.985992</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na2db944e4c6f4e5999f47b3812bc0e12">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/16/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:48.979318</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncc34a563b67d4111b015cb0cf3deaf05">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5b2e341c848b41218f46ceb9c9724df8">
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N335e77a2e5384e64b6575da00c9bf12e">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///16/edit/"/>
+    <ns1:pav.owlcreatedB>Leila Posenato Garcia</ns1:pav.owlcreatedB>
+  </rdf:Description>
+</rdf:RDF>

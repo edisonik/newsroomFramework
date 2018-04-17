@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/core/"
+   xmlns:aof="http://purl.org/ao/foaf/"
+   xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="N5be38821190c4c0280f1fb9945ca0dd6">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.711945</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5dc5f236b18441c0942f0b3340962f94">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Gestante*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.716483</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nea56c86acbe34d819d28b1fdfd6c9ca0">
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.713847</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3c7716fcdd264483b0744754e29592de">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.712847</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43e3501b46544fa79577b9c0969f49dc">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46427e07ee884014a4d92748c408a36e">
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.714376</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Conjuntivite*&gt;"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne686a79d14874c14b99d1f3e1411cee2">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N794051b7b35e46c1abf716bc8a8c4350">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.713204</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3385f3e336b045e1926b1e105eec6231">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N883cf146957a4c1bb702424b20314e8f">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Conjuntivite*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N073e87afdd4f46c79960dc26086b7752">
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6eb998e80ff649fcb7a23b1445e1354d">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndc5a30ace49b43bfb545e0f9d7d204e2">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0bd3bfa639b844eab4492697347ac978">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano*&gt;"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd52a4ea9b6db4fb8b093a49d8a75e3b0">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores*&gt;"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N378fe642d541490ca1cdc75c975f3cfc">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.715591</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncd6cd423bb1b412398c500654915a0b4">
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.719926</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Prurido*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N13675d45c4ce4fd4b235008e57c04d7c">
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.722038</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Virus_Zika*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7154ce8ca9254b9185e7fb12797febaf">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.718012</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N73b6d3f63a0640f7ae10924c50c904cc">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.717525</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9e504aa9a9a54e5abea9e1a3c970d5fb">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N431b142e86364d7a8f930d5932d54a44">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.715097</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N68adc59d5a4e483db7dce0aaef001057">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8ba9b50644e4ddd8b566871aa8ee327">
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.718477</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a1ee1133d8544b2bcdbf8b682e933d9">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.722878</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc2c486bfd64744708c467477a3be8c84">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.714736</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N632c660ca6c648b290991bb9be9699a7">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Virus_Zika*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N32c55e356fc14a779d1c864931fbfd88">
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N466b945066aa4ba18be3eeac9f8886dd">
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.720789</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1354ed375b2c4d30aa3f9d5687bf3965">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6a3db09cf5304516ad632aca911e6a65">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Prurido*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N303d8ee064764c2ba8689b0d353ec610">
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Gestante*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36c7b1ce89824d1fb4c9446753164ac8">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:36.719141</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/17/edit/"/>
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N62ef9728cb184c4399e3839927218647">
+    <ns1:pav.owlcreatedB>Alexandre vargas</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///17/edit/"/>
+  </rdf:Description>
+</rdf:RDF>

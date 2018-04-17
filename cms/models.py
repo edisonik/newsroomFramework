@@ -34,8 +34,8 @@ class Editoria(models.Model):
 
 class Artigo(models.Model):
 
-    title = models.CharField(max_length=50)
-    sutian = models.CharField(max_length=50,blank=True)
+    title = models.CharField(max_length=150)
+    sutian = models.CharField(max_length=150,blank=True)
     text = RichTextField(config_name='default', verbose_name=u'Matéria', default="")
     editoria = models.ManyToManyField(Editoria)
     creators = models.ManyToManyField(Creator)

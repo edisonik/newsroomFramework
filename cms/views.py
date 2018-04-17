@@ -25,6 +25,7 @@ class ArticleCreateView(CreateView):
             self.object.annotate() 
         else:
             self.object.save()
+            form.save_m2m()
         return HttpResponseRedirect(self.object.get_absolute_url())
 
     def dispatch(self, request, *args, **kwargs):
