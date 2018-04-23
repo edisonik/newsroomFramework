@@ -43,7 +43,7 @@ class ArticleUpdateView(UpdateView):
     def get_related_articles(self):
               
         article_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.kwargs['pk'])).values('objeto'))
-
+        #********************************************************************************************************************
         #Primeira opção
         '''
         published_related = Artigo.objects.filter(pk__in=Tripla.objects.filter(objeto__in=article_concepts)\
@@ -51,11 +51,12 @@ class ArticleUpdateView(UpdateView):
                             .annotate(qt_related=Count('tripla__pk',filter=Q(tripla__objeto__in=article_concepts))).order_by('qt_related')
         return(published_related)'''
 
+        #********************************************************************************************************************
         #segunda opção
         a = Annotator()
         onto = ontospy.Ontospy(os.path.join(PROJECT_ROOT, 'namespace.owl'))
         # Não se pode usar uma função python em uma agregação (como no codigo comentado a seguir) e não consegui criar minha própria 
-        # função de agragação para uma função que não tenha correspondência no sql do banco e portanto resolvo o problema com um loop
+        # função de agragação para uma função que não tenha correspondência no sql do banco e portanto resolvo o problema com dois loops
         # como segue(nada eficiente)
         '''published_related = Artigo.objects.filter(pk__in=Tripla.objects.filter(objeto__in=article_concepts)\
                             .values('artigo')).filter(pk__in=Publicado.objects.all().values('artigo')).exclude(pk=self.kwargs['pk'])\

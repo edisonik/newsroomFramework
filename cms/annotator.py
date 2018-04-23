@@ -51,7 +51,7 @@ class Annotator():
         return concepts_found
     @staticmethod
     def get_reifications(onto):#retorna a lista de uris de todas as reificações de uma ontologia carregada no ontospy
-
+        #adicionar aqui outros tipos de uri além de classes
         reifications = []
         for i in onto.classes:
             if not i.children():
@@ -66,6 +66,7 @@ class Annotator():
 
     @staticmethod
     def get_number_of_brothers(set_a,set_b,onto):
+        #adicionar aqui outros tipos de uri além de classes
         onto_nodes_list_set_a = [i for i in onto.classes if str(i) in set_a]
         onto_nodes_list_set_b = [i for i in onto.classes if str(i) in set_b]
         b_parents_set = set([ j for i in onto_nodes_list_set_b for j in i.parents()])

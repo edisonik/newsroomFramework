@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load cms_extra_tags %}
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <head>
@@ -15,7 +16,7 @@
     <ul>
         {% for recurso in related_concepts %}
             <li>
-               <input type="checkbox" name="concepts" value={{ recurso.pk }} id="concept" checked="checked"> <a href={{ recurso.uri }}>{{ recurso.uri }}</a> - {{ recurso.valor  }}
+               <input type="checkbox" name="concepts" value={{ recurso.pk }} id="concept" checked="checked"> <a href={{ recurso.uri }}>{{ recurso.uri|uri_cleaned_url_zika_onto }}</a> - {{ recurso.valor  }}
             </li>
             {% empty %}
             <li>Nenhuma anotação</li>
