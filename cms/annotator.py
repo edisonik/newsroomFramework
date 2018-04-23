@@ -63,6 +63,22 @@ class Annotator():
         for i in parents:
             elem_set.update([i])
             Annotator.add_related_concepts(i.parents(),elem_set)
+
+    @staticmethod
+    def get_number_of_brothers(set_a,set_b,onto):
+        onto_nodes_list_set_a = [i for i in onto.classes if str(i) in set_a]
+        onto_nodes_list_set_b = [i for i in onto.classes if str(i) in set_b]
+        b_parents_set = set([ j for i in onto_nodes_list_set_b for j in i.parents()])
+
+        brother_count = 0
+        for c in onto_nodes_list_set_a:
+            p = set(c.parents())
+            if p.issubset(b_parents_set):
+                brother_count += 1
+        return(brother_count)
+    #retorna o numero de conceitos irmãos não filhos da raiz
+        
+             
     @staticmethod
     def update_graph(basefile,doc_ref,annotations_concepts_uris,author):#Insere novas anotações no grafo presente em basefile ou cria um novo
      

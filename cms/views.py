@@ -5,14 +5,18 @@ from django.views.generic.edit import CreateView,UpdateView,DeleteView
 from django.urls import reverse
 from django.views.generic.list import ListView
 from django.utils import timezone
-from django.db.models import Count,Q
+from django.db.models import Count,Q,F
 
 from cms.forms import ArticleForm,ArticleSearchForm
 from cms.models import Artigo,Recurso,Tripla,Namespace,Publicado
+from cms.annotator import Annotator
+from newsroomFramework.settings import PROJECT_ROOT
 
 import datetime
 import re
 import rdflib as rdf
+import ontospy
+import os
         
 class ArticleCreateView(CreateView):
     model = Artigo
@@ -35,23 +39,54 @@ class ArticleUpdateView(UpdateView):
     model = Artigo
     form_class = ArticleForm
     template_name = 'cms/article_form.html'
-    
-    def get_related_articles(self):
 
+    def get_related_articles(self):
+              
         article_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.kwargs['pk'])).values('objeto'))
+
+        #Primeira opção
+        '''
         published_related = Artigo.objects.filter(pk__in=Tripla.objects.filter(objeto__in=article_concepts)\
                             .values('artigo')).filter(pk__in=Publicado.objects.all().values('artigo')).exclude(pk=self.kwargs['pk'])\
                             .annotate(qt_related=Count('tripla__pk',filter=Q(tripla__objeto__in=article_concepts))).order_by('qt_related')
-        return(published_related)
+        return(published_related)'''
+
+        #segunda opção
+        a = Annotator()
+        onto = ontospy.Ontospy(os.path.join(PROJECT_ROOT, 'namespace.owl'))
+        # Não se pode usar uma função python em uma agregação (como no codigo comentado a seguir) e não consegui criar minha própria 
+        # função de agragação para uma função que não tenha correspondência no sql do banco e portanto resolvo o problema com um loop
+        # como segue(nada eficiente)
+        '''published_related = Artigo.objects.filter(pk__in=Tripla.objects.filter(objeto__in=article_concepts)\
+                            .values('artigo')).filter(pk__in=Publicado.objects.all().values('artigo')).exclude(pk=self.kwargs['pk'])\
+                            .annotate(qt_bro=self.get_brothers_aggregation(F('pk'),self.kwargs['pk'])).order_by('qt_bro')'''
+
+        annotated_published = Artigo.objects.filter(pk__in=Tripla.objects.all().values('artigo')).filter(pk__in=Publicado.objects.all().values('artigo')).exclude(pk=self.kwargs['pk'])
+
+        ordered_related_list = list()
+        set_a = article_concepts.values_list('uri',flat=True)
         
-        last_publish_date = Publicado.objects.filter(artigo=self.id).aggregate(Max('data'))
-        return(Publicado.objects.filter(artigo=self.id).filter(data=last_publish_date['data__max']).get())
+        for i in annotated_published:
+            set_b = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=i).values('objeto')).values_list('uri',flat=True)
+        
+            ordered_related_list.append((i,a.get_number_of_brothers(set_a,set_b,onto)))
+
+        ordered_related_list = sorted(ordered_related_list, key=lambda x: x[1], reverse=True)
+
+        published_related = Artigo.objects.none()
+        
+        for i in ordered_related_list:
+            if i[1] < 1 :
+                break;
+            published_related = published_related | Artigo.objects.filter(pk=i[0].id)
+
+        return(published_related)
 
     def get_context_data(self, **kwargs):
 
         return dict(
             super(ArticleUpdateView, self).get_context_data(**kwargs),
-            related_articles=self.get_related_articles()[0:5],
+            related_articles=self.get_related_articles()[:5],
             related_concepts=Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=self.kwargs['pk']).values('objeto')),
             editor=Artigo.objects.get(pk=self.kwargs['pk']).editoria.all(),
             autors=Artigo.objects.get(pk=self.kwargs['pk']).creators.all()
