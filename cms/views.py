@@ -186,6 +186,7 @@ class ArticleSearchView(ListView):
          
     def make_set(self,field_dict,queryset,q_filter):
         oprtrs= {'&':1,'|':0}
+        acc = Artigo.objects.none()
         for field_type, field in field_dict.items():
             if field:
                 quoteds = re.findall(r'"[^"]*"', field)
@@ -247,21 +248,26 @@ class ArticleSearchView(ListView):
 
         published_articles = Artigo.objects.filter(pk__in=Publicado.objects.all().values('artigo')).order_by('pk')
 
-        if [f for f in field_dict.values() if f is not None]:
+        if [f for f in field_dict.values() if f != '']:
+            print(field_dict)
 
-            if field_dict['title'] or field_dict['sutian']:
-                q_article = self.make_set({k: field_dict[k] for k in ('title', 'sutian')},Artigo.objects.filter(pk__in=published_articles),'icontains')
+            if field_dict['title']:
+                q_article = self.make_set({'title': field_dict['title']},Artigo.objects.filter(pk__in=published_articles),'icontains')
 
+            if field_dict['sutian']:
+                q_article = q_article | self.make_set({'sutian': field_dict['sutian']},Artigo.objects.filter(pk__in=published_articles),'icontains')
             if field_dict['valor']:
-                q_recurso = self.make_set({k: field_dict[k] for k in ('valor','uri')},Recurso.objects.all(),'icontains')
+                q_recurso = self.make_set({'valor': field_dict['valor']},Recurso.objects.all(),'icontains')\
+                            | self.make_set({'uri': field_dict['uri']},Recurso.objects.all(),'icontains')
+                    
                 q_article = q_article | q_article.filter(pk__in=Tripla.objects.filter(objeto__in=q_recurso).values('artigo'))
 
             if field_dict['topico']:
-                q_editorias = self.make_set({k: field_dict[k] for k in ('topico')},Editoria.objects.all(),'icontains')
+                q_editorias = self.make_set({'topico': field_dict['topico']},Editoria.objects.all(),'icontains')
                 q_article = q_article.filter(editoria__in=q_editorias)
                 
             if field_dict['name']:
-                q_creators = self.make_set({k: field_dict[k] for k in ('creator')},Creator.objects.all(),'icontains')
+                q_creators = self.make_set({'creator': field_dict['creator']},Creator.objects.all(),'icontains')
                 q_article = q_article.filter(editoria__in=q_editorias)
 
             return(q_article)

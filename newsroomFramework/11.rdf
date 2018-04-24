@@ -5,724 +5,904 @@
    xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:nodeID="Ncd39f529c34547c4942928be8132eebd">
+  <rdf:Description rdf:nodeID="N397b5e7f1b774291a686e14f8d4d6fd9">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7c2c98e03df94a01a5a4a29feb9bc82d">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N980cfc79e9e845b6880b5003607931aa">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.093613</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N375df89b132a4b12930dd584951cdd38">
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.091481</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N35daaa6124504dda8140834067c4a4c6">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N94672df630e949b195abbed2c17ac2cb">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd7397961ffdc4c86872757e76b6161e7">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N03dd73c7f2ee411d825ac536c5c61706">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N30b5c389400d472b9691609b957f13e7">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na0f905d7f4a84704beeb1ea8af48489e">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N234174a0b42d4fdebb2fbc57bdf104c3">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e2681f10f0c4d3c8113630ff827b936">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf00cea1a27cc4554a0a7429d47038594">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.092682</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4d82e33067a4c19a773207483183fd4">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc02995f1aaed47f7a474b3dcbd886811">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N58f8265afd9243b39941703032582cd1">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69e7c0baba0348a9aaa2b938ad94caad">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N66fd2f6443e64903937d8a0e819e571f">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.103797</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9babe45a6d834eee8dc137712378a5bb">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5d53275f45ae4c3fb338371d87c7bbf2">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N18da2d455a524f378fb431fef8f2d0e6">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.091022</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na71169036ded4c5c9a87afbcda9afed6">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4062b5d4641c49d0a2a0ec71ea5bfda9">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental*&gt;"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.089566</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N309ada54e3594399856d18b67a9155fe">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N441b4c91707a45cbb34b322a835a0f27">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N39ce0544ef204bb0b6d58780e25c25a1">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0603395a32054221a24bd428bb91082a">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7220c187db5f457497b892c79d38e583">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb3766ee1c2a4bc79ea8757e093ed543">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na85543e7466b4174b85e75c91de85b09">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3862e2561f3349598fe0c14aaa64e4c1">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf7692be86efa43a7adaa0edfad37d2d5">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.087607</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd29be8dfd4de42dab43c9932ee35d332">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.099083</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N103695beea6f4e72963cbe56c9b8c15a">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.091930</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0604d2e158bf467094a24e43f54c3272">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb47ba6209a4d4f2797815c124e7311e1">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N82e8970a866b4dd78a4b4f7967123210">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N58bba9c16a7347feafc75bd80ea1759c">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.101590</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas*&gt;"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc20e350a0fc3443a881940813acdd373">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1bb9c06fe28d4a43bedbf3e87bed4b9d">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc746c601cc154d19988d83ca8d512f97">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.103342</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N727c6eda264c480fabfef22fe041eec4">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndab094ea4eb347b4bce1d54011df2e1a">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.098600</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N043df3b500b14eccae66dbf0edbec8b8">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental*&gt;"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf892abee839845efbfb06fc54eaf512b">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5f9cd9cb1e114dbd89323a7aefcbf7de">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nedfd9c7c458046529d8f4139c808be7a">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N898c6060d3064785b019dfacb9c1aaa1">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N47febbb386f145d0b79f836adba32aae">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N623a9ce4b96b41a196370ac87c3a4dc5">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c2492d7b08943a6b665bfc190325f74">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb6cdbe0714bc401fa928bd7f9ed7b043">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.097310</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1675a226a10e457babd5079104d57be2">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na394a5fc11f34fcaa3844eb06767ef3e">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne5e05b38d7cb4032986069682bc7cc4a">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N637edb0f96884f84932a8858d46170f8">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne89204b057a94dcb9891fed91fcd65ad">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nca5ae4bdc174451094e202cd84078a00">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N42c2b8a877a84f80995e3945284cf502">
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.101076</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36a57e3875ce44f792abc9c526daa6b7">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4578057945414412a884f22a5d4a89d5">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e6285e7d4ea4aa5912f8918eefc44a4">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N04cce6a925254e159f007170ae410a30">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.102487</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8894ddedfefb4c3e98ba63ef8bbd0a59">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N89db49b3c9364ea2b966bde354c12129">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38b1df8213564033b9c54ded6f80cf46">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N263cb6ebf08542799d39534a6fb92a5d">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N79a8b7d21d954d7bbfed82b5ebd30761">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N986a19ab4e534c7c9cba63e3050d27c4">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1009b32876d04b0ea247664bbdf6d7ec">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N04e906841c75403ab4354d3fbe96f20c">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4bfbcdfde5fa4e6b9030a689c9e1fe2b">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5ed89286fe9b4a20882d67e5c5e46ea0">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7cdee57b342e4932b50f31c646f256c7">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7fbeb6008474450d81764c36190823c5">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N49c2ffa56afe44429ce4ed4484745d4a">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8f41bfdef2dc4db2a6fbbb2b68069a22">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndb2025cb819d423da9a132ec872c84de">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N09d2aef195c04ffba74aa1bd1c9d33e5">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N221ec45a45b34c69bcd670af66ae5daf">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nff0d5f6997274591b6f6e6be7c865490">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7edd37769d7947f6a04727e8a9a668eb">
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.100060</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N80f6858eb1f84262a99bd01762cafa5c">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na1a55078ca724e63afacbcaf60c2c61f">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndf69ac0897974061954fde58a83b9d92">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N887e5d28c30e49ebac4761e2fff1d246">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N59bd5b525e634af6a6b21a1da68dc44b">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6df4ee2b98e343ed9c33fc917bde5b4d">
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2678dc50806544289dd07d3a1d661ff3">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N30611bb517a0496e99a426b319226425">
+    <aof:annotatesDocument rdf:resource="/11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.102902</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbb35cd9bbe2c489c9dd7b96eaaa89755">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
     <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.025861</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
     <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.095145</ns1:pav.owlcreatedOn>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd4a73f007c534720bc2daa719af47adb">
+  <rdf:Description rdf:nodeID="N89bf59b3eb3a4c8b9684571122ac25c5">
     <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N33168e758c454dac828ff1094ff2adca">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc1e18b09136847aa964f8b75a18d8499">
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9b29177a88444e35985abdc857dce0db">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf98060edee8c44babf864e4ea97213a5">
+  <rdf:Description rdf:nodeID="Nd67aace4121a45cb9d9aa82689b5b243">
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
     <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
     <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N4735749418274d24b8a07f462438f79f">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  <rdf:Description rdf:nodeID="N1a9fe8e90feb40d1a4c68b007899fd78">
     <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a547b2099094797a9dd9405fe8a5bf8">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
     <aof:annotatesDocument rdf:resource="/11/edit/"/>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.024967</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc6df38bd3e85491d9b92393bb230a365">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.102042</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N93306713ab1c44c0828032843969d764">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
     <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N596e5b2f15034ceaae563d6b3b8be275">
+    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
     <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N04e5c1ce611d4c2a88407b0177e73a5a">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb5047f2dbda34dc09dd250e9717b08de">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3e1abb891c494b2194d9dc72c4f3e272">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.025434</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N46c8994b28df457eb10a15a13687b587">
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.014034</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N02f9daaa314d4f48850e17c17c0e1445">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
     <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
     <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf544c205397449a1abdea852d842caed">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb7c2c15fe64e470c96c7721d4aca137a">
+  <rdf:Description rdf:nodeID="Nd8a9a868d75a45a3bdd0d966d14c0df1">
     <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
     <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na3e289f266a34ed8b1240dc8459e3033">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.020916</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N91fb0c4987e744919bd26e3480e04285">
+  <rdf:Description rdf:nodeID="N5d449b85d098473690c164816e3e7670">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
     <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
     <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne2eff5c33b6348acb5e9dd35611dc2c9">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N851a207bd0bc4cd6a074fb6fad69ed41">
     <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
     <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.016701</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb0b6e86b83a2454baff9dc02eb3cfd71">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
+  <rdf:Description rdf:nodeID="Nf84326291b1547d6a71f67ab0ba1fb01">
     <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N81b87d9b2a8f47efbf82bf245df17826">
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.019711</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N552fa440596246b1884d1bd4d6a85898">
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.011959</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N466d1a5aa69441699c13acb3a857e3a2">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4a6648da106c4bd6ab5012a2224225d9">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.019277</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1ca97fc663084991b2f2edd5443af7e0">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.020101</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6706acb96a954c99b81ee6f716d3c98c">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.023647</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc1930f6a1d0a4c409f383732a7ea19b6">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N772b5fb7dd454a1e8d8128a9b401a2b7">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.013418</ns1:pav.owlcreatedOn>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N09e2e04ad6794207b50cb0b6e31448e8">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.022107</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
     <aof:annotatesDocument rdf:resource="/11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne8ade172982e4c889d3d16116466e70e">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.020499</ns1:pav.owlcreatedOn>
     <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc64314a6579e4c49a972236980e1b321">
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.026799</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N31d2f89bc88e40818ec23f6c28475367">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.022685</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0aa5f1467b6e43498cf425daa377c429">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nefac134182604537b1109381f524a6f2">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf30af8d664e1467eb91c4a05ec6e6831">
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7efc1ee7250e469cbd674dedb5408514">
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N514d79d107584a6c8afee51f2a80d6b3">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.021717</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9f1aef61adf545448924733ab620f108">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N24cf50b3ec144368bd7f9c3eb3be3480">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.018430</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N23f1b728b479462da4a1f3359c050fc9">
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne7ace4edfaf8457eb8163e72342cbc85">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N96249a625c91414da2b1c80327bf34d2">
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9a6d6c592dc645caad448fa707da9cb9">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6c531b9fdbfa450fb6d5042c773bc14a">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbae9088dc5dc492bb5cf198e61b898e3">
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8ee07cb5fc0345cda64d5a5e60fe3826">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7c4f43828cc54a76a38108f53ac505a3">
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2d2e1c036be5479389b6c41cefa10f77">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.026317</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0dc88ade09eb4670b6ef60757a8ee9e7">
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na21910f0e2e848c98497acd7d3d543f6">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd82d2ee4bfe2498a945e301e905474f0">
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5f7f324d71e841b6ba0b272b24d819ce">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N701aa9ed343244b685461b8658c66260">
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na8a21fc399dd40689b1bb89a11040329">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N07536d664ffb4b08b49198283086fedc">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N85df07b25c554d50b48ab73605b43e03">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N66ea40e15abc42d38d49f25ae36e1a48">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8c138aa492784c0d8404f36514cf0223">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd39eff6709de45ebaffecaa34349ab86">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N50918d3f400442b6923435931ec38b0e">
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5d6d6e9f449d4e4d857ee14549102adf">
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2ca62bbffa484fc7b22eaa61f9272907">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8e43a951cf974bd7a7b03ff2141a431a">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1338cb3ca48843358672cafbb9d2348f">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nca2865172d9445018a9917087ed5581e">
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N39c8c2b5cb1c45de80a23cbe09568f23">
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6b6b661a2b87402d82639eeb4f0d863b">
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc151942a58054ff7a50ec76b3594346c">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0b7f9055573240a8a8fce8af9e78ec03">
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na40b9061412c44d2808ca2b47de67a04">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc1945040bba642d9a248607080863b78">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf6ab77c9d2f64b72b631163a82dd211f">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf89c5a929cb744d89a685dd8004f1fbc">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:45:54.021324</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na60fce873e8a4a6aaf0dfb7f61f630d6">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb57096e0dbb442df8e1177c7047d1602">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf70e74fccc6040e688b0b9919961123e">
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb8541a4253c34a9f854dc9cfbbde6ed4">
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N26b1f8bc14c54ca185d508a6285746bf">
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na1ff4154f16442129bb0e5a19f0e6fa1">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1bf05eaf4c4a4a9cb9e3515eec3837da">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Raquel Aguiar</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Denise Valle</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="file:///11/edit/"/>
-    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:31:16.088978</ns1:pav.owlcreatedOn>
   </rdf:Description>
 </rdf:RDF>

@@ -5,60 +5,172 @@
    xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:nodeID="N5bf2f7ec2da74cd9ad2ac360a8cfe3ee">
+  <rdf:Description rdf:nodeID="N518a60e8ceb447c39d34629343b7fbf8">
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
     <aof:annotatesDocument rdf:resource="/13/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:08.908439</ns1:pav.owlcreatedOn>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:39:15.186968</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbb724727916c4412b5a0d031f2e6e5ec">
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N224bb154b7a8436a87fd0fb84ad85448">
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naf34e8c804124ad0be3fac4249365b0c">
+    <aof:annotatesDocument rdf:resource="/13/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:39:15.187346</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb08ac63e42a84b47b65d45450d30069e">
-    <aof:annotatesDocument rdf:resource="/13/edit/"/>
-    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:08.908804</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
-    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N1ffdd59f57b7418f9803048a59bc3a5f">
+  <rdf:Description rdf:nodeID="N302f8e957ef54d70901f4849cda32680">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/13/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:39:15.184849</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne3bdd8e2015c45059f75dbc4f4326951">
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8c351bef506848de93af8ceb288546d3">
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbca086ddca984a31a9b2bd8a58598d1f">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:39:15.185837</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/13/edit/"/>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:08.906938</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="/13/edit/"/>
     <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N94defa4870c94ef7a01e71fa337b16d8">
     <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/13/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:08.907326</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Naf5f45b8d2e24c909312ae3fee6cf1fc">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:08.905950</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/13/edit/"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne72041c6533f42c3902d27d8afbe084c">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:08.908073</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
-    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <aof:annotatesDocument rdf:resource="/13/edit/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc3deb42004ba4be8b9ae666d9b2eaed3">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:46:08.907703</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+  <rdf:Description rdf:nodeID="Ne79efb89d9e949d19f355879f7a7561f">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:39:15.186600</ns1:pav.owlcreatedOn>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/13/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4b3ee5f7c6514558be0a621e7216a949">
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ecab0f992fc4e76bcd3ee3fd8f1284f">
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N66a3d8edf768421f8ea90046316b3a9a">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N345a5050a710465287f711cc3038762e">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4a7806d759db459a9b156eab1b8c8432">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/13/edit/"/>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:39:15.187703</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N682ec79830fe4e51b39006f1ec51f644">
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc3a728eaa8694acc9fc16780328169f8">
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N81061f52a7a94768bd89a0110017da28">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:39:15.186224</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
     <aof:annotatesDocument rdf:resource="/13/edit/"/>
     <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7376ad580d0a4227a2d174ce0ab3433f">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N938c50eea3d24158b7bd9227e0c9057c">
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfab2035e471842b194f8313174106d28">
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6c12943d9a164f2ca0dcd69c874a8dcb">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Anna Fiastro</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///13/edit/"/>
+    <ns1:pav.owlcreatedB>Paige Baum</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
   </rdf:Description>
 </rdf:RDF>

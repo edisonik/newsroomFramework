@@ -5,200 +5,396 @@
    xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:nodeID="Neb04ff9772d841aca2a6af7261cc0821">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+  <rdf:Description rdf:nodeID="Na54a6343215745608c3b24c63b5ce4bc">
     <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.858171</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na8df301fbdc442c389e8e7391a2bea32">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.855147</ns1:pav.owlcreatedOn>
+  <rdf:Description rdf:nodeID="Nb74afe4c0bc546c88580eccb4bdcd2fe">
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.627973</ns1:pav.owlcreatedOn>
     <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Conjuntivite*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N625c0d6d8ff34e74bc6b81c26cdd521c">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.860213</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+  <rdf:Description rdf:nodeID="N70a2c5b93f424491a07d0e28d15130b4">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
     <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N219065ce5e154769bbf37ba74e3ec149">
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema*&gt;"/>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N2293bc33fb994bb8ad55afb7f216c55e">
+  <rdf:Description rdf:nodeID="N73ca4349257f4d6f98985c4e7cf67cc3">
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.629398</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.856586</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb1b2f9792c8d434b94a0751454188a40">
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.864727</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+  <rdf:Description rdf:nodeID="N67befbf6d1de464ab082fe12e458d3ce">
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0e57c5e092ac45dc8a75f1231bb04146">
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.864088</ns1:pav.owlcreatedOn>
     <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Tratamento*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.631308</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N33228db51dd841afa9dbfb660694f596">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.859591</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
+  <rdf:Description rdf:nodeID="N7d65c00fa1f54c5caa951dcad339b7e3">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
     <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
     <aof:annotatesDocument rdf:resource="/20/edit/"/>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.633107</ns1:pav.owlcreatedOn>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne75aa5e36e674b74a8020ba410db60a1">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
+  <rdf:Description rdf:nodeID="Ned2da6abbad049f89ac7d72eac6c0850">
     <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.855922</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N491217da6df34946a76c2844357ca782">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.862518</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Repouso*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc39ff864bcfe422c898d0c4be21cdb71">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.863314</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9153289631ae4f659c769256462fc3c2">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomático*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.863693</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N07d790d0d1ea41319f2d6b1755ce99b6">
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.852656</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4039742aa0b24adb9265c53aa3cb41f8">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.861273</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#RT-PCR*&gt;"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0c2f0ed7170040ff8b8fba0c59fb93dd">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika_Vírus*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.865054</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N611b8171663142629e1763ebbafdd6b4">
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.864417</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N28f01934fbd2412ca0e0ee83f4051b7b">
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Gestante*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.857217</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Need566115e654b30814f89c0dc01d138">
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.859114</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N89f1102b7c874d81832199395cc54a23">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.858799</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.631971</ns1:pav.owlcreatedOn>
     <aof:annotatesDocument rdf:resource="/20/edit/"/>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco*&gt;"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N303c7c06bc26445e809d4ff849d6e42f">
+  <rdf:Description rdf:nodeID="N0fbc32acc267465b9a811a11a514b181">
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.854764</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
     <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Prurido*&gt;"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na3171bd45dec4b06b4cb728a3db3a4c1">
+  <rdf:Description rdf:nodeID="Nbfabe07fa2414f22ab447d02caf1cb07">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomático*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8120d321696a470785ff6228c437932d">
     <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.858484</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N18a090e7eefc41bfa07b79482c715172">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.857857</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+  <rdf:Description rdf:nodeID="N226843127e274fa5841fe33dd2766cdd">
     <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.638328</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd7c192db611475db1e4aaad8a8260f7">
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3e577177ce364d9c88e8467249cc764b">
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.630980</ns1:pav.owlcreatedOn>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N0e5ab075d4dd4f3c8a09d74c0b2362b2">
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.856901</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8c39dcddc20e449a8cc3f26e9eb7c963">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.854352</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncc63d087e95b4fa1ae03e728f4290068">
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.856271</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N066a711e3f334678a09b31ff500e8ccf">
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.853909</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5979574b754f48a7b730f957ec5ec0eb">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.857540</ns1:pav.owlcreatedOn>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7cb61db9d77d4bd68ba2c270f5923ff3">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.855500</ns1:pav.owlcreatedOn>
-    <aof:annotatesDocument rdf:resource="/20/edit/"/>
-    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+  <rdf:Description rdf:nodeID="N83d41d2b4e0f40f99d4c6af6c16807dc">
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1ba7e02f7de3466693c08bef2210f238">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:47:53.860691</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Prurido*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.628309</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
     <aof:annotatesDocument rdf:resource="/20/edit/"/>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N236c7cf7985d40eb80d4b47a0c3dfddf">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
     <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N852f69e7356946cf94e7f896079b3341">
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.637999</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Tratamento*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7d4872fda7ac41f99ebc63328856dc30">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Prurido*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.634235</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf385e844f9284f98bb5705580933ff9c">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.628648</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf062addcea93457686ae6ea1882f8c18">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.630650</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano*&gt;"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne5f50b1759764bdf99560e62e218a2c5">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.632314</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores*&gt;"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N084f3c9e267f47b38a750a9c7bebc3b2">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N19d2bb9b47f54a6bb1c4a8324e83e666">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.623877</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N40c4769fc4fd4d9881fc18159f807949">
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.639030</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika_Vírus*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3ab06d8011d44c4aa10277aec8e537a7">
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Gestante*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.630319</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb970034d87974df49e3968becf6b78e7">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#População_de_Risco*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N31fb25c9c7e740edb06349d3dedb712b">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Isolamento*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N52693d8d213b4e31a160b6714a689348">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Portadores*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N242f265e980647a69981054d9e93ef5f">
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nab5cdf71835944df8e7ba91a659a61d6">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.626679</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N026a00fdcf8d4932895d1140862e752e">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na6c4ffea3daf4735ab8efe83cab8e879">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.627615</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8eaa0c53937040819f2e72e0731536c9">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Repouso*&gt;"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1fdf8501d0a34b20a0707280ce368eac">
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6e1f4b47891147b0a823290134244861">
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.632685</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N20b422a5700e462d87b3a48f21d387e9">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.631637</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N31c79a73611d4747979eb4196737d85b">
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.637645</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomático*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N99c585573fd248738650cc4491670eaa">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.629934</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N76e693b783a64cd9aafe7773fb927a7d">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva*&gt;"/>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1062ef19beec46a39232c9abcca40003">
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Gestante*&gt;"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N67598a35fd154d46b464b6c24ffda7f6">
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Conjuntivite*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N07b9d500dbff41bcb9438235a0f05b80">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Humano*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N728667b5cc5e4cc4baf32765fbbee3c3">
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#RT-PCR*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.635177</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N91f37ecd50a241a49aa341fa8d40d82e">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5094c84c72f9436aa8fe877232dd3fcd">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.638660</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4bc80e627a544092bee5d0e806047d39">
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.627207</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9393777f3ae147e6aa0facb6dba97be5">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.637114</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N849fe09bae174f5fbfdd3453cf356a50">
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Tratamento*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2a44c710d6df4eaabeb9bfb87174dffa">
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.629024</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncbd0a5b1b3b14fdab17939a5b6b5212b">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia*&gt;"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf51a3c6bd88c4c58a8dd5964a26c2803">
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf3798e27568e4c2fabbb3f9ffa08ea4e">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito*&gt;"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef480870f0df40189ee9a2a081f714eb">
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N64bb6c2b920745fea045f1b61742c264">
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika_Vírus*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4d8e15c8ef354064bbe7d465dfecb423">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///20/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#RT-PCR*&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3ae94a5c248d45249b7132e4d1504553">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Repouso*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:43:29.636073</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>José Idarlan Gomes Chaves Filho</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/20/edit/"/>
   </rdf:Description>
 </rdf:RDF>

@@ -5,94 +5,184 @@
    xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:nodeID="Nde6a8881f8b24552bf748a69eec42b0e">
-    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.491226</ns1:pav.owlcreatedOn>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/7/edit/"/>
-    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+  <rdf:Description rdf:nodeID="N2d801a7c954846f0925c96954e08e902">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2009eaba17cf4873ab499b2512b5e27e">
+    <aof:annotatesDocument rdf:resource="/7/edit/"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.196430</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne63d74f385dc4b8b98ca17a6ee3b8957">
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N3d98c2b6d71f4505a5fd9181b0aa6923">
+  <rdf:Description rdf:nodeID="Nb9852fe961e6462e9da994b1d3af01a3">
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd816386ab8914b1980f8c350964a45d5">
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6509a9dff0bf44068c29d48af6cc031d">
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <aof:annotatesDocument rdf:resource="/7/edit/"/>
-    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.487844</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4c03914974a14a99864c7c5fd9c99d37">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.490791</ns1:pav.owlcreatedOn>
     <aof:annotatesDocument rdf:resource="/7/edit/"/>
     <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.195548</ns1:pav.owlcreatedOn>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb434a18c5f3149d2af3d84ef8dc6f56d">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  <rdf:Description rdf:nodeID="N2824cef3ab2d4ce991fef5c37a7466cf">
     <aof:annotatesDocument rdf:resource="/7/edit/"/>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
     <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.490201</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.198530</ns1:pav.owlcreatedOn>
     <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N1f0e074b237e433698e5b15834645bd8">
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.486134</ns1:pav.owlcreatedOn>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <aof:annotatesDocument rdf:resource="/7/edit/"/>
+  <rdf:Description rdf:nodeID="Nc328b3de9d1b4a28b3c78c976ddf7b7d">
     <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
-    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N08c0ffd111bd47afae3b3b9789358ac0">
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.195997</ns1:pav.owlcreatedOn>
     <aof:annotatesDocument rdf:resource="/7/edit/"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.488443</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N62dab03bd0014449adce18756e69c13f">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
     <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
     <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N69f40a6acc004e01803e530b5225a4d5">
+  <rdf:Description rdf:nodeID="N3fb8d544c1fc4a84b0559b81c57bd537">
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema*&gt;"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne3f07244ae324bcda3ac2e85af84f750">
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico*&gt;"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/7/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.190185</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfe245a2107f44c71bebc6345da186ba6">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N80788671679048aa95c2760a8706ff35">
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/7/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.197299</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.489733</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/7/edit/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncdb9dfdfa0d1480388e0c3c8ebe69224">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.487345</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+  <rdf:Description rdf:nodeID="N92dbe6716c4049aa8014631e182eaf31">
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/7/edit/"/>
-    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1e3f82e327784d2fb3a26c461ade4a12">
-    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema*&gt;"/>
-    <aof:annotatesDocument rdf:resource="/7/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.488912</ns1:pav.owlcreatedOn>
-    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
-    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
     <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N421e138a2c6f44009b29117f23632c78">
-    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
     <aof:annotatesDocument rdf:resource="/7/edit/"/>
-    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17T02:44:05.489326</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.194754</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N08e0d0a4fda74b88b4a5d036adefe378">
+    <aof:annotatesDocument rdf:resource="/7/edit/"/>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.196889</ns1:pav.owlcreatedOn>
     <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia*&gt;"/>
-    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
     <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7dd87c2dcf124d9fae44235607bc6d04">
     <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika*&gt;"/>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N24bfb1de9af544dd8d8b41b9e56acae5">
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.197708</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/7/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N197dd604abc34feb96decf6979d64fe6">
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença*&gt;"/>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb82bb66774a4842a1d3b1671860b4ef">
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="&lt;Class *http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas*&gt;"/>
+    <aof:annotatesDocument rdf:resource="/7/edit/"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-24T00:29:33.198119</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3bec4f5df17e42ac822d9718156c5937">
+    <aof:annotatesDocument rdf:resource="file:///7/edit/"/>
+    <ao:hasTopic rdf:resource="file:///home/vitor/newsroomFramework/newsroomFramework/&lt;Class *http:/www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre*&gt;"/>
+    <ns1:pav.owlcreatedB>Renata de Magalhães Vieira1</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Kleber Giovanni Luz</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Glauco Igor Viana dos Santos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-17</ns1:pav.owlcreatedOn>
   </rdf:Description>
 </rdf:RDF>
