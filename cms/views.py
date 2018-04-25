@@ -8,7 +8,7 @@ from django.utils import timezone
 from django.db.models import Count,Q,F
 
 from cms.forms import ArticleForm,ArticleSearchForm
-from cms.models import Artigo,Recurso,Tripla,Namespace,Publicado
+from cms.models import Artigo,Recurso,Tripla,Namespace,Publicado,Editoria,Creator
 from cms.annotator import Annotator
 from newsroomFramework.settings import PROJECT_ROOT
 
@@ -184,7 +184,7 @@ class ArticleSearchView(ListView):
                 
         return(stack.pop(0))
          
-    def make_set(self,field_dict,queryset,q_filter):
+    def make_set(self,field_dict,queryset,q_filter,acumulator):
         oprtrs= {'&':1,'|':0}
         acc = Artigo.objects.none()
         for field_type, field in field_dict.items():
@@ -222,12 +222,12 @@ class ArticleSearchView(ListView):
 
                     q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited[query_position:operator_position])}
                     expression.append(queryset.filter(**q_args))
-                    queryset = self.process_posfix(self.infix_to_posfix(expression,**oprtrs),list(oprtrs.keys()))
+                    acumulator = acumulator | self.process_posfix(self.infix_to_posfix(expression,**oprtrs),list(oprtrs.keys()))
                 else:
                     q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited)}
-                    queryset = queryset.filter(**q_args)
+                    acumulator = queryset.filter(**q_args) | acumulator
 
-        return(queryset)
+        return(acumulator)
                 
     def get_context_data(self, **kwargs):
 
@@ -248,27 +248,25 @@ class ArticleSearchView(ListView):
 
         published_articles = Artigo.objects.filter(pk__in=Publicado.objects.all().values('artigo')).order_by('pk')
 
-        if [f for f in field_dict.values() if f != '']:
+        if [f for f in field_dict.values() if f != '' and f != None]:
+
             print(field_dict)
+            q_article = Artigo.objects.none()
 
-            if field_dict['title']:
-                q_article = self.make_set({'title': field_dict['title']},Artigo.objects.filter(pk__in=published_articles),'icontains')
+            if field_dict['title'] or field_dict['sutian']:
+                q_article = self.make_set({k:field_dict[k] for k in('title','sutian')},published_articles,'icontains',Artigo.objects.none())
 
-            if field_dict['sutian']:
-                q_article = q_article | self.make_set({'sutian': field_dict['sutian']},Artigo.objects.filter(pk__in=published_articles),'icontains')
             if field_dict['valor']:
-                q_recurso = self.make_set({'valor': field_dict['valor']},Recurso.objects.all(),'icontains')\
-                            | self.make_set({'uri': field_dict['uri']},Recurso.objects.all(),'icontains')
-                    
-                q_article = q_article | q_article.filter(pk__in=Tripla.objects.filter(objeto__in=q_recurso).values('artigo'))
+                q_recurso = self.make_set({k:field_dict[k] for k in('valor','uri')},Recurso.objects.all(),'icontains',Recurso.objects.none())
+                q_article = q_article | published_articles.filter(pk__in=Tripla.objects.filter(objeto__in=q_recurso).values('artigo'))
 
             if field_dict['topico']:
-                q_editorias = self.make_set({'topico': field_dict['topico']},Editoria.objects.all(),'icontains')
-                q_article = q_article.filter(editoria__in=q_editorias)
+                q_editorias = self.make_set({'topico': field_dict['topico']},Editoria.objects.all(),'icontains',Editoria.objects.none())
+                q_article = q_article | published_articles.filter(editoria__in=q_editorias)
                 
             if field_dict['name']:
-                q_creators = self.make_set({'creator': field_dict['creator']},Creator.objects.all(),'icontains')
-                q_article = q_article.filter(editoria__in=q_editorias)
+                q_creators = self.make_set({'name': field_dict['name']},Creator.objects.all(),'icontains',Creator.objects.none())
+                q_article = q_article | published_articles.filter(creators__in=q_creators)
 
             return(q_article)
 
