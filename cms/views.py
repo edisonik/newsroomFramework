@@ -155,13 +155,12 @@ class ArticleSearchView(ListView):
                     out.append(op)
                     op = stack.pop(0)
                 out.append(op)
-                out.append(o)
             else:
                 out.append(o)
         while stack:
             op = stack.pop(0)
             out.append(op)
-
+        print(out)
         return(out)
     @staticmethod
     def process_posfix(exp,oprtrs_keys):
@@ -181,9 +180,31 @@ class ArticleSearchView(ListView):
                     return(queryset)
 
                 stack.insert(0,result)
-                
+        
         return(stack.pop(0))
-         
+
+    @staticmethod
+    def split_expression(expression,operators):
+        word = ''
+        splited = list()
+        for i in expression:
+            if i in operators:
+                if word != '':
+                    splited.append(word)
+                    word = ''
+                splited.append(i)
+            elif i == ' ':
+                if word != '':
+                    splited.append(word)
+                word = ''
+            else:
+                word += i
+        if word != '':
+            splited.append(word)
+
+        return(splited)
+                
+        
     def make_set(self,field_dict,queryset,q_filter,acumulator):
         oprtrs= {'&':1,'|':0}
         acc = Artigo.objects.none()
@@ -200,33 +221,37 @@ class ArticleSearchView(ListView):
                         field_pos = quo_pos + len(s)
                     splited.extend(field[field_pos:].split(' '))
                 else:
-                    splited = field.split(' ')
-               
+                    splited = self.split_expression(field,['|','&','(',')'])
+                    print(splited)
                 operators_dict = { i:x for i,x in enumerate(splited) if x == '&' or x == '|' or x == '(' or x == ')' }
                 operators_dict_keys = list(operators_dict.keys())
 
                 if operators_dict_keys:
+                    print(operators_dict)
                     query_position = operator_keys_pos = 0
                     dict_lenght = len(operators_dict_keys)
                     expression = list()
+
                     while operator_keys_pos < dict_lenght:
                         operator_position = operators_dict_keys[operator_keys_pos] 
-
-                        q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited[query_position:operator_position])}
-                
-                        expression.append(queryset.filter(**q_args))
+                        if ''.join(splited[query_position:operator_position]) != '' :
+                            q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited[query_position:operator_position])}
+                            expression.append(queryset.filter(**q_args))
                         expression.append(operators_dict[operator_position]) 
 
                         query_position = operator_position + 1
                         operator_keys_pos += 1
-
-                    q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited[query_position:operator_position])}
-                    expression.append(queryset.filter(**q_args))
+                    #print(expression)
+                    if ''.join(splited[query_position:]) != '' :
+                        print("entrou")
+                        q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited[query_position:])}
+                        expression.append(queryset.filter(**q_args))
+                    #print(expression)
+                    #print(self.process_posfix(self.infix_to_posfix(expression,**oprtrs),list(oprtrs.keys())))
                     acumulator = acumulator | self.process_posfix(self.infix_to_posfix(expression,**oprtrs),list(oprtrs.keys()))
                 else:
                     q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited)}
                     acumulator = queryset.filter(**q_args) | acumulator
-
         return(acumulator)
                 
     def get_context_data(self, **kwargs):
@@ -250,7 +275,6 @@ class ArticleSearchView(ListView):
 
         if [f for f in field_dict.values() if f != '' and f != None]:
 
-            print(field_dict)
             q_article = Artigo.objects.none()
 
             if field_dict['title'] or field_dict['sutian']:
