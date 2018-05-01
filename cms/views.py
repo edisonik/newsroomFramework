@@ -222,12 +222,10 @@ class ArticleSearchView(ListView):
                     splited.extend(field[field_pos:].split(' '))
                 else:
                     splited = self.split_expression(field,['|','&','(',')'])
-                    print(splited)
                 operators_dict = { i:x for i,x in enumerate(splited) if x == '&' or x == '|' or x == '(' or x == ')' }
                 operators_dict_keys = list(operators_dict.keys())
 
                 if operators_dict_keys:
-                    print(operators_dict)
                     query_position = operator_keys_pos = 0
                     dict_lenght = len(operators_dict_keys)
                     expression = list()
@@ -243,7 +241,6 @@ class ArticleSearchView(ListView):
                         operator_keys_pos += 1
                     #print(expression)
                     if ''.join(splited[query_position:]) != '' :
-                        print("entrou")
                         q_args = {'{0}__{1}'.format(field_type, q_filter):''.join(splited[query_position:])}
                         expression.append(queryset.filter(**q_args))
                     #print(expression)
