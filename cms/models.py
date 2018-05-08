@@ -110,7 +110,7 @@ class Artigo(models.Model):
             ns.close()
         except Exception as e:
             print(e)
-        concepts_to_annotate_list = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.id)).values('objeto')).values_list('uri',flat=True)
+        concepts_to_annotate_list = [x.split('*')[1] for x in Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.id)).values('objeto')).values_list('uri',flat=True)]
         self.a.update_graph(os.path.join(PROJECT_ROOT, str(self.id) + '.rdf'),self.get_absolute_url(),concepts_to_annotate_list,self.creators.all().values_list('name',flat=True)).serialize(format='xml',destination = os.path.join(PROJECT_ROOT, str(self.id) + '.rdf'))
         
         p = Publicado.objects.create(artigo = self,html = html ,rdf_annotation = open(os.path.join(PROJECT_ROOT, str(self.id) + '.rdf'),'r').read())
