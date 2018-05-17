@@ -5,7 +5,7 @@ from django.views.generic.edit import CreateView,UpdateView,DeleteView
 from django.urls import reverse
 from django.views.generic.list import ListView
 from django.utils import timezone
-from django.db.models import Count,Q,F
+from django.db.models import Count,Q,F,Case,When
 
 from cms.forms import ArticleForm,ArticleSearchForm
 from cms.models import Artigo,Recurso,Tripla,Namespace,Publicado,Editoria,Creator
@@ -73,13 +73,10 @@ class ArticleUpdateView(UpdateView):
             ordered_related_list.append((i,a.get_number_of_brothers(set_a,set_b,onto)))
 
         ordered_related_list = sorted(ordered_related_list, key=lambda x: x[1], reverse=True)
-
-        published_related = Artigo.objects.none()
         
-        for i in ordered_related_list:
-            if i[1] < 1 :
-                break;
-            published_related = published_related | Artigo.objects.filter(pk=i[0].id)
+        # Fucking elegant!
+        preserved = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate([x[0].id for x in ordered_related_list])]) 
+        published_related = Artigo.objects.filter(pk__in=pk_list).order_by(preserved)
 
         return(published_related)
 

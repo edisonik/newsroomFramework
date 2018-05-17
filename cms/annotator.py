@@ -29,12 +29,18 @@ class Annotator():
     def get_article_concepts(concept_text_list,text):#retorna lista de conceitos encontrados no texto
       
         sentences = Annotator.get_text_sentences(text)
+        print("Sentences")
+        print(sentences)
         concepts_found = list()
         search_remaining_concepts = [nltk.word_tokenize(i) for i in concept_text_list]
+        print("Concepts")
+        print(search_remaining_concepts)
 
         while len(search_remaining_concepts) > 0:
             biggest_concept_lenght = len(max(search_remaining_concepts,key = len))
             biggest_concept_items = [x for x in search_remaining_concepts if len(x) == biggest_concept_lenght]
+            print("Maiores conceitos")
+            print(biggest_concept_items)
             search_remaining_concepts = [x for x in search_remaining_concepts if x not in biggest_concept_items]
                 
             for sentence in sentences:
@@ -45,6 +51,10 @@ class Annotator():
                             if concept not in concepts_found:
                             #Compara o conceito com os itens  de -(k + biggest_concept_lenght) até -k
                                 if [i.upper() for i in concept] == [i.upper() for i in sentence[-(k + biggest_concept_lenght):-k]]:
+                                    print("Conceito encontrado")
+                                    print(concept)
+                                    print("Sentença")
+                                    print(sentence)
                                     concepts_found.insert(len(concepts_found),concept)
                                     biggest_concept_items.remove(concept)
 
