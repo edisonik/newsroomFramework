@@ -45,22 +45,22 @@ class ArticleUpdateView(UpdateView):
         article_concepts = Recurso.objects.filter(pk__in=Tripla.objects.filter(artigo=Artigo.objects.get(pk=self.kwargs['pk'])).values('objeto'))
         #********************************************************************************************************************
         #Primeira opção
-        '''
+        
         published_related = Artigo.objects.filter(pk__in=Tripla.objects.filter(objeto__in=article_concepts)\
                             .values('artigo')).filter(pk__in=Publicado.objects.all().values('artigo')).exclude(pk=self.kwargs['pk'])\
-                            .annotate(qt_related=Count('tripla__pk',filter=Q(tripla__objeto__in=article_concepts))).order_by('qt_related')
-        return(published_related)'''
+                            .annotate(qt_related=Count('tripla__pk',filter=Q(tripla__objeto__in=article_concepts))).order_by('-qt_related')
+        return(published_related)
 
         #********************************************************************************************************************
         #segunda opção
-        a = Annotator()
+        '''a = Annotator()
         onto = ontospy.Ontospy(os.path.join(PROJECT_ROOT, 'namespace.owl'))
         # Não se pode usar uma função python em uma agregação (como no codigo comentado a seguir) e não consegui criar minha própria 
         # função de agragação para uma função que não tenha correspondência no sql do banco e portanto resolvo o problema com dois loops
         # como segue(nada eficiente)
-        '''published_related = Artigo.objects.filter(pk__in=Tripla.objects.filter(objeto__in=article_concepts)\
+        ''''''published_related = Artigo.objects.filter(pk__in=Tripla.objects.filter(objeto__in=article_concepts)\
                             .values('artigo')).filter(pk__in=Publicado.objects.all().values('artigo')).exclude(pk=self.kwargs['pk'])\
-                            .annotate(qt_bro=self.get_brothers_aggregation(F('pk'),self.kwargs['pk'])).order_by('qt_bro')'''
+                            .annotate(qt_bro=self.get_brothers_aggregation(F('pk'),self.kwargs['pk'])).order_by('qt_bro')''''''
 
         annotated_published = Artigo.objects.filter(pk__in=Tripla.objects.all().values('artigo')).filter(pk__in=Publicado.objects.all().values('artigo')).exclude(pk=self.kwargs['pk'])
 
@@ -74,9 +74,10 @@ class ArticleUpdateView(UpdateView):
 
         ordered_related_list = sorted(ordered_related_list, key=lambda x: x[1], reverse=True)
         
-        # Fucking elegant!
-        preserved = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate([x[0].id for x in ordered_related_list])]) 
-        published_related = Artigo.objects.filter(pk__in=pk_list).order_by(preserved)
+        pk_list = [x[0].id for x in ordered_related_list]
+
+        preserved = Case(*[When(pk=pk, then=pos) for pos, pk in enumerate(pk_list)]) # Fucking elegant!
+        published_related = Artigo.objects.filter(pk__in=pk_list).order_by(preserved)'''
 
         return(published_related)
 
