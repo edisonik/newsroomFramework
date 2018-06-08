@@ -1,4 +1,5 @@
-virtualenv
+python-virtualenv
+python3-pip
 mysql-server
 libmysqlclient-dev
 python3-dev
