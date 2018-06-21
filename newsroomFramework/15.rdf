@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/core/"
+   xmlns:aof="http://purl.org/ao/foaf/"
+   xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="N3151adfdb28246a1993679378a1eaff7">
+    <aof:annotatesDocument rdf:resource="/15/edit/"/>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:46:59.791242</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N469af8d684a044caaf7b651a7efaea74">
+    <aof:annotatesDocument rdf:resource="file:///15/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na5ab91f2dbd24b0cb30db4f3d6d71463">
+    <aof:annotatesDocument rdf:resource="file:///15/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito"/>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N32f2bea0e6364a5f8a911f12a7e687ec">
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:46:59.790533</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/15/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf00b21132388428d848d72e863e55af9">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Saneamento_Básico"/>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///15/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N238b70fc71534ad0b9b34cf2904694ea">
+    <aof:annotatesDocument rdf:resource="file:///15/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N245cc81383174c2eb62d88471fcf9892">
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia"/>
+    <aof:annotatesDocument rdf:resource="/15/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:46:59.790800</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N47e76ef4a7414433b730712cf0cec659">
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:46:59.790313</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/15/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N90bb0be195da4048a414e4638b2de689">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika"/>
+    <aof:annotatesDocument rdf:resource="file:///15/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd77908973f94a429e3a40dfccf8d1e8">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:46:59.789846</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental"/>
+    <aof:annotatesDocument rdf:resource="/15/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd0a19a5089f42e5bb601a976e9ca1db">
+    <aof:annotatesDocument rdf:resource="file:///15/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8917952e752c4bb6952223583dbc938d">
+    <aof:annotatesDocument rdf:resource="file:///15/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8b19de8050004d96a44348763f422f19">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/15/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:46:59.790087</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa6c3d46fa1744dab1bd840dee2db978">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:46:59.788828</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    <aof:annotatesDocument rdf:resource="/15/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb7ccf1b5112848ecab030402cb29c702">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/15/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:46:59.791021</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Saneamento_Básico"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5fdc045e67bb4c6c9e2f1ff9cc24a270">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///15/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Deisy de freitas Lima ventura</ns1:pav.owlcreatedB>
+  </rdf:Description>
+</rdf:RDF>

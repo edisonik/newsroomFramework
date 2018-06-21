@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/core/"
+   xmlns:aof="http://purl.org/ao/foaf/"
+   xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="Nee57ff6ee89d48ce9e9219eb71c77928">
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:32:50.268681</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd21c23a7e474280a319eeb36b76caae">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:32:50.267911</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb7016ddfcaae4cea919dc03ca84f613b">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///8/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N412ac569d0774586805b9c53660583a2">
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:32:50.266764</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne1d80be4725e43b88e94f0d2df78d10a">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///8/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3331098467924696a8313eb9f178f0bc">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:32:50.268180</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença"/>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na1d2fdd6e1564b4e9fa64d7371c60c3d">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:32:50.268926</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3d6ab28c599249558365e4a9dac7fe32">
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///8/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na9a1544ca86f4cee9f213e707e6d7bf9">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///8/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N03a10bd719104bc28aedc71af00ed12b">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:32:50.269171</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc910d8f08145415d8c42ad398fa28b0f">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="file:///8/edit/"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N95eb3f54980149bbbbd354e60b16f7d0">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///8/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N92d1ce88f65d4193b489c3a9c97a8833">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///8/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia"/>
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N168637a4543246dcb766d54d88a9a4e1">
+    <ns1:pav.owlcreatedB>Sophie Helena Eickmann</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/8/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:32:50.268434</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+</rdf:RDF>

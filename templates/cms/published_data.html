@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<head>
+    <link rel="stylesheet" href="{% static 'css/article_form.css' %}"> 
+</head>
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    {{ form }}      
+    <h1>Conceitos presentes no texto</h1>
+    <ul>
+        {% for recurso in related_concepts %}
+            <li>
+               <a href={{ recurso.uri }}>{{ recurso.uri }}</a> - {{ recurso.valor  }}
+            </li>
+            {% empty %}
+            <li>Nenhuma anotação</li>
+        {% endfor %}
+    </ul>
+    <h1>Artigos Relacionados</h1>
+    <ul>
+        {% for article in related_articles %}
+            <li>
+                <a href={{ article.get_last_publish_url }}>{{ article.title }}</a> - {{ article.sutian }}
+            </li>
+            {% empty %}
+            <li>Nenhum artigo relacionado</li>
+        {% endfor %}
+    </ul>
+</form>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/core/"
+   xmlns:aof="http://purl.org/ao/foaf/"
+   xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="N23a1b919271647d6b677bc73820caf13">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Triagem"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfc07055f441e414a84c588571f2c17de">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transmissão"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N090a1c76f67a476194d0eb58eb7b7fd3">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N467c5b06981c4953a4338a5c24137845">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.966007</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N384ef20f0e9f45cfbd5d2aabce142233">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.969997</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina"/>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Necc04cbefc914903a4f503aaece2887c">
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.968188</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nec206632cb3c4c9bac175364a578e22c">
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N033040e46cc44ffca9eece1a22760506">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.970280</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd45255e0b4eb4a6b8c3d489759cd207d">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre"/>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N271ad6e64fe149419acb4c71952dba80">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.965679</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N76fcb3b029be4df597f965c9bcce25f5">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na565103527b74ac58dea69cdc5be651e">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.966897</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf7e35f4b069042898f761e5383e518ba">
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.965098</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5bc3e65a52a04889bcda91efb4f7ca1c">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.967286</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc9cf0da603754fec8db7f295fe725edd">
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na8e64b743e6549ac9cb55f948569e13c">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Vacina"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N56f8fc3f818046cd87ea7630c802aeb9">
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd744df9adb94065a6776a908f871539">
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.969491</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transmissão"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf2b8de80a25f4025b88df9084d156b89">
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.968959</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N92bd834986f14878baee3ea34ed5f5d3">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Anamnese_do_Paciente"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3e5f7461dcbc441aa993e747ba98dc43">
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.969742</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Triagem"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbad8610ef7da4e05a2411c00ef60a887">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f6fe065a7d140008a5b0df6007d4936">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.967933</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mosquito"/>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c3cc634d79a4de3adecca8718b4b07a">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.966633</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9f97a1f4a34549cd945931f4964ecd46">
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N702dc9046e5c4514a20bcfbdc0b264d6">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N415f2cb185594cce9b407681994a5ef5">
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.963472</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N555383e4ded14b768652bd70b8b127c4">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.967672</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Microcefalia"/>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc2bf4ab805c048a3ad2f3cf481c03193">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transfusão_de_Sangue"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.969238</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0091905744d549d39d3c0406d71b9e0d">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N072b81ce67eb4511b97925080fc0021f">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Transfusão_de_Sangue"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N65ccaa1833434a1188d205d19d3bc6ac">
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.968452</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Preventiva"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4dbf50bf3b9b4c43a68ed33216a32c4d">
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.964510</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4a530c691ae04b8e8f1a79e071464404">
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4027b3d87f83467d8d8a07c80f1e5f96">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.964800</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Ambiental"/>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf8daaac0f36a4c6ea86841604926e562">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4460f6f48fe04f788f0ff2135ba709e8">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.966300</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N55612d45f645438bb0f9780150f74a55">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0833343cc9d2420da23a8ecd551e3d9e">
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Perguntas"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb590c0d16a24fd7a3c661f7a4ff018d">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2fc9ed7926a24516b2b22b67f0466b9e">
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.965388</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfdf87ade5980438cbe32903a55a0627d">
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Profilaxia"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:43:42.968705</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/12/edit/"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N30b53b603b524c4fa227fe6ed267887f">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inseticidas"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc343aff6f26047db8b0a76d70e45946a">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia"/>
+    <aof:annotatesDocument rdf:resource="file:///12/edit/"/>
+    <ns1:pav.owlcreatedB>João nunes</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Denise Pimenta</ns1:pav.owlcreatedB>
+  </rdf:Description>
+</rdf:RDF>

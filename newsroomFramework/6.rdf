@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/core/"
+   xmlns:aof="http://purl.org/ao/foaf/"
+   xmlns:ns1="http://cdn.rawgit.com/pav-ontology/pav/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="N4f1ad70550a94a4aaeac75648f664024">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.507879</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mal_Estar"/>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N96b687fbde004a3a8cf72763caba0bc4">
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.507449</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Febre"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7ab2d801b38d4e6d93f5cc0f2e183c4d">
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.506311</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Comprometimento_da_Doença"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N89ed3a109815482a92194815b8fd9ac2">
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.508407</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Sintomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nae7a2b21629a48dbbd5a28719aaafca4">
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.506803</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exames"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33f3b21c1f5348dda3ef3c1924384bdd">
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.506537</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Diagnóstico"/>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N00ea312c6a124577b8672df315a78e54">
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Zika"/>
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.508838</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na17312009aaa4bee9e5d1c78b9b324d2">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.505077</ns1:pav.owlcreatedOn>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Agente_Etiológico"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neb3e6ea8ec7047d78869f4873bbe5d37">
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Triagem"/>
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.508622</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54fda125a66c4fea90e99ebb3ae4ef0f">
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.507236</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Fase_Viremia"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6bf0ee1e2b0346b8aff60671e83c8b23">
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.507665</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Inicial"/>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nadfc2ad37b6e45b3a11e430893c65f67">
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.505856</ns1:pav.owlcreatedOn>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Aguda"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2a720e069c8945c0ba1e39aafa6e5978">
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Exantema"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.507021</ns1:pav.owlcreatedOn>
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N60e9b14fbaad4d729c7ab7b70a7c3502">
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.508169</ns1:pav.owlcreatedOn>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Mielite"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6a4fa13828d4488b9cc2a6c02f8e401f">
+    <ns1:pav.owlcreatedB>Pedro Fernando da Costa Vasconcelos</ns1:pav.owlcreatedB>
+    <rdf:type rdf:resource="http://purl.org/ao/core/Annotation"/>
+    <aof:annotatesDocument rdf:resource="/6/edit/"/>
+    <ao:hasTopic rdf:resource="http://www.semanticweb.org/cristiano/ontologies/2016/5/untitled-ontology-5#Benigno"/>
+    <ns1:pav.owlcreatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-08T00:31:34.506091</ns1:pav.owlcreatedOn>
+  </rdf:Description>
+</rdf:RDF>

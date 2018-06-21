@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<h1>Artigos</h1>
+<ul>
+{% for article in object_list %}
+    <li>
+        <a href={{ article.get_absolute_url }}>{{ article.title }}</a> - {{ article.sutian }}
+    </li>
+{% empty %}
+    <li>Nenhum resultado retornado.</li>
+{% endfor %}
+</ul>
+</form>

@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/article_form.css' %}">
+</head>
+<form action="" method="get" novalidate>
+    {% csrf_token %}
+    {{ form }}
+<h1>Artigos</h1>
+<ul>
+<input class="searchfield" id="searchbox" name="t" type="text" value="{{ request.GET.t }}" placeholder="Títulos..."/>
+<input class="searchfield" id="searchbox" name="s" type="text" value="{{ request.GET.s }}" placeholder="Subtítulos..."/>
+<input class="searchfield" id="searchbox" name="c" type="text" value="{{ request.GET.c }}" placeholder="Conceitos..."/>
+<input class="searchfield" id="searchbox" name="e" type="text" value="{{ request.GET.e }}" placeholder="Editorias..."/>
+<input class="searchfield" id="searchbox" name="u" type="text" value="{{ request.GET.u }}" placeholder="URIs..."/>
+<input class="searchfield" id="searchbox" name="a" type="text" value="{{ request.GET.a }}" placeholder="Autores..."/>
+<input type="submit" value="Buscar" />
+{% for article in artigos %}
+    <li>
+        <a href={{ article.get_last_publish_url }}>{{ article.title }}</a> - {{ article.sutian }}
+    </li>
+{% empty %}
+    <li>Nenhum resultado retornado.</li>
+{% endfor %}
+</ul>
+</form>
