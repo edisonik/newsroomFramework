@@ -39,3 +39,5 @@
   * > Crie um usuário com o comando: python manage.py createsuperuser
   * > python manage.py runserver
   * > Acesse http://127.0.0.1:8000/admin/
+
+## Para mais informações acesse a Wiki
