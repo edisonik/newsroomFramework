@@ -2,7 +2,13 @@
 
 ## Como setar o ambiente
 
-### Primeiro instale o pip
+### Dê um clone do projeto e instale as dependências
+* > git clone https://github.com/edisonik/newsroomFramework.git
+* > cd newsroomFramework
+* > sudo apt-get update
+* > xargs -a dependencies.txt sudo apt-get install
+
+### Instale o pip
   > sudo apt-get install python3-pip
 
 ### Depois instale o virtualenv usando pip3
